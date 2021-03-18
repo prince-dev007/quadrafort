@@ -4,13 +4,35 @@
   font-family: "Nunito", sans-serif;
   box-sizing: border-box;
 }
-#section1 {
+
+#section1 
+{
   height: 100vh;
-  background-image: url("../img/third.png");
+
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  animation: mymove 20s infinite;
 }
+@keyframes mymove {
+    0% {background-image: url('../img/third.png')
+    }
+    25%
+    {
+        background-image: url('../img/christian-wiediger-WkfDrhxDMC8-unsplash.jpg')
+    }
+    50%
+    {
+        background-image: url('../img/sec.png')
+    }
+    75%
+    {
+        background-image: url('../img/joshua-reddekopp-SyYmXSDnJ54-unsplash.jpg')
+    }
+    100%{background-image: url('../img/footernew.png')
+    }
+}
+  
 
 #section1 .container {
   padding-top: 100px;
@@ -192,5 +214,4 @@
 #footerSec p
 {
     color: #fff;
-    
 }
