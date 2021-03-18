@@ -8,12 +8,12 @@
 #section1 
 {
   height: 100vh;
-
+  background-image: url('../img/third.png');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   -webkit-animation: mymove 10s linear infinite;
-  background-image: url('../img/third.png')
+
 }
 @keyframes mymove {
     0% {background-image: url('../img/third.png')
