@@ -1,4 +1,5 @@
 import Logo from '../Assests/img/logo.png';
+import {Link} from 'react-router-dom';
 import './Header.css';
 import $ from 'jquery';
 function Header() {
@@ -27,14 +28,14 @@ function Header() {
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#Quadrafort">
+              <Link class="nav-link" to="/">
                 Home <span class="sr-only">(current)</span>
-              </a>
+              </Link>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="#Quadrafort">
+              <Link class="nav-link" to="/About">
                 About Us <span class="sr-only">(current)</span>
-              </a>
+              </Link>
             </li>
             <li class="nav-item active">
               <a class="nav-link" href="#Quadrafort">
