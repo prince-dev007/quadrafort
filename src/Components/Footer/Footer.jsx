@@ -1,8 +1,9 @@
 import Quad from "../Assests/img/logo.png";
-function Footer(){
-    return(
-        <>
-             <div class="container-fluid" id="section6">
+import "../Assests/css/Style.css";
+function Footer() {
+  return (
+    <>
+      <div class="container-fluid" id="section6">
         <div class="row p-lg-3">
           <div class="col-lg-3 p-lg-3">
             <img src={Quad} height="100px" alt="Quadrafort" />
@@ -54,20 +55,28 @@ function Footer(){
           </div>
           <div class="col-lg-3 p-lg-4">
             <h2 class="mt-3">Contact</h2>
-            <p>Address: Quadrafort, Advant Navis Business Park, Sector 142, Noida - 20130, India</p>
-            <p>Phone: + 91 120 4561770<br/>
-                Fax: + 91 120 4561770<br/>
-                Email: contact@quadrafort.com<br/>
-                Website: www.quadrafort.com</p>
+            <p>
+              Address: Quadrafort, Advant Navis Business Park, Sector 142, Noida
+              - 20130, India
+            </p>
+            <p>
+              Phone: + 91 120 4561770
+              <br />
+              Fax: + 91 120 4561770
+              <br />
+              Email: contact@quadrafort.com
+              <br />
+              Website: www.quadrafort.com
+            </p>
           </div>
         </div>
       </div>
-      <div class="container-fluid p-lg-2" id="footerSec">
+      <div class="container-fluid p-lg-2 " id="footerSec">
         <div class="container text-center">
           <p>&copy; Copyright All Rights Are Reserved</p>
-          </div>
         </div>
-        </>
-    )
+      </div>
+    </>
+  );
 }
 export default Footer;

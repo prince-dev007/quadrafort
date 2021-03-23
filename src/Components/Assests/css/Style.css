@@ -13,10 +13,10 @@
   background-position: center;
   background-attachment: fixed;
   -webkit-animation: mymove 10s linear infinite;
-
 }
 @keyframes mymove {
-    0% {background-image: url('../img/third.png')
+    0% {
+        background-image: url('../img/third.png')
     }
     25%
     {
@@ -77,7 +77,6 @@
 #section2 .row h1
 {
     text-align: left;
-
 }
 #section2 .row h2
 {
@@ -122,6 +121,8 @@
 #section3 .row .card ul li 
 {
     color: #000;
+    list-style-type:square;
+    padding:2px;
 }
 #section4
 {
@@ -210,7 +211,6 @@
 #footerSec
 {
     background-color: #000;
-    margin-bottom: 0;
 }
 #footerSec p
 {

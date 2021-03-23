@@ -60,7 +60,7 @@ function Body() {
           <h1>Services</h1>
           <div class="row mt-5">
             <div class="col-lg-4">
-              <div class="card p-3">
+              <div class="card ">
                 <img src={Image} class="card-img-top" alt="..." />
                 <div class="card-body">
                   <h2>Sales Cloud</h2>
@@ -84,7 +84,7 @@ function Body() {
               </div>
             </div>
             <div class="col-lg-4">
-              <div class="card p-3">
+              <div class="card ">
                 <img src={Image} class="card-img-top" alt="..." />
                 <div class="card-body">
                   <h2>Service Cloud</h2>
@@ -113,7 +113,7 @@ function Body() {
               </div>
             </div>
             <div class="col-lg-4">
-              <div class="card p-3">
+              <div class="card">
                 <img src={Image} class="card-img-top" alt="..." />
                 <div class="card-body">
                   <h2>Marketing Cloud</h2>
