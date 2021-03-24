@@ -1,0 +1,74 @@
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#contact1
+{
+    height:70vh;
+    background:url('../Assests/img/third.png');
+    background-size: cover;
+    background-attachment: fixed;
+}
+#contact1 .container
+{
+    padding-top:200px;
+}
+#contact1 h1
+{
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size:3rem;
+}
+#contact1  span
+{
+    border-bottom:2px solid #fff;
+}
+#contact1 p
+{
+    font-weight: bolder;
+    margin-top:30px;
+    text-align: center;
+    color: #fff;
+}
+#contact2 h4
+{
+    color: #bf360c;
+    font-weight: bold
+}
+#contact2 h2
+{
+    font-weight: bold;
+}
+#contact2 span
+{
+    font-weight: bold;
+    border-bottom:2px solid #000;
+}
+#contact2 p 
+{
+    margin-top:20px;
+}
+#contact2 .btn
+{
+    background:#bf360c;
+    color: #fff;
+    box-shadow: none;
+    border-radius:0;
+    font-weight: bold;
+}
+#contact2 .form-control
+{
+    box-shadow: none;
+    border: none;
+    border: 1px solid #bf360c;
+
+}
+#contact2 label
+{
+    color: #000;
+    font-weight: bold;
+}
