@@ -1,0 +1,57 @@
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#carrier1
+{
+    height: 70vh;
+    background-image: url('../Assests/img/handshake.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#carrier1 .container
+{
+    padding-top:150px;
+}
+#carrier1 h1
+{
+    text-align: center;
+    font-size:3rem;
+    color: #fff;
+}
+#carrier1 p
+{
+    color: #fff;
+    font-weight: bold;
+}
+#carrier2 h1
+{
+    text-align: center;
+}
+#carrier2 span
+{
+    font-weight: bold;
+    border-bottom: 2px solid #000;
+}
+#carrier2 h3
+{
+    font-weight: bold;
+    font-size:1.5rem;
+}
+#carrier2 p
+{
+    font-weight: bolder;
+
+}
+#carrier2  .btn
+{
+    background:#bf360c;
+    color: #fff;
+    font-weight: bold;
+    box-shadow: none;
+    border-radius:0;
+    margin-top:20px;
+}
