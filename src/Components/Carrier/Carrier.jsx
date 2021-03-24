@@ -7,7 +7,7 @@ function Carrier() {
       <Header />
       <div class="container-fluid" id="carrier1">
         <div class="container">
-          <h1 class="mt-5">Carrier</h1>
+          <h1 class="mt-5"> Career</h1>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia,
             harum inventore quae qui id modi nemo velit officia soluta ducimus

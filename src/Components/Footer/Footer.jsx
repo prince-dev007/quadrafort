@@ -26,7 +26,7 @@ function Footer() {
                 <i class="bx bxs-right-arrow"></i> Salesforce
               </li>
               <li>
-                <i class="bx bxs-right-arrow"></i> Carrier
+                <i class="bx bxs-right-arrow"></i>  Career
               </li>
               <li>
                 <i class="bx bxs-right-arrow"></i> Contact Us
@@ -46,7 +46,7 @@ function Footer() {
                 <i class="bx bxs-right-arrow"></i> Salesforce
               </li>
               <li>
-                <i class="bx bxs-right-arrow"></i> Carrier
+                <i class="bx bxs-right-arrow"></i>  Career
               </li>
               <li>
                 <i class="bx bxs-right-arrow"></i> Contact Us
