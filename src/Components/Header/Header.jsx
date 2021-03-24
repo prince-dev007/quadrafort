@@ -43,8 +43,8 @@ function Header() {
               </Link>
             </li>
             <li class="nav-item active">
-              <Link class="nav-link" to="/Carrier">
-               Carrier <span class="sr-only">(current)</span>
+              <Link class="nav-link" to="/Career">
+              Career <span class="sr-only">(current)</span>
               </Link>
             </li>
             <li class="nav-item active">
