@@ -38,9 +38,9 @@ function Header() {
               </Link>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="#Quadrafort">
+              <Link class="nav-link" to="/SalesforeProducts">
                 Salesfore Products <span class="sr-only">(current)</span>
-              </a>
+              </Link>
             </li>
             <li class="nav-item active">
               <a class="nav-link" href="#Quadrafort">

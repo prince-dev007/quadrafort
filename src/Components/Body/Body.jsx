@@ -193,7 +193,7 @@ function Body() {
       </div>
       <div class="container-fluid" id="section5">
         <div class="container p-lg-5">
-          <h1>Best Projects</h1>
+          <h1>Recent Projects</h1>
           <div class="row mt-5">
             <div class="col-lg-4">
               <div class="card">

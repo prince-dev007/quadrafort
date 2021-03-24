@@ -40,4 +40,9 @@
 #aboutSection2 .row h3
 {
     text-align: center;
+    font-weight: bold;
+}
+#aboutSection2 .row ul 
+{
+    margin-top: 30px;
 }
