@@ -13,7 +13,7 @@ function Header() {
     <>
       <nav class="navbar navbar-expand-lg navbar-light p-lg-4 fixed-top animate__animated animate__fadeInDown"   >
         <a class="navbar-brand" href="#Quadrafort">
-            <img src={Logo} height="50px" alt="Quadrafort" />
+            <img src={Logo} height="100px" alt="Quadrafort" />
         </a>
         <button
           class="navbar-toggler"
