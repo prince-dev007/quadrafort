@@ -23,7 +23,7 @@ function SalesforeProducts() {
         <div class="container">
           <div class="row">
             <div class="col-lg-4 p-lg-3">
-              <h3>Sales Cloud</h3>
+              <h3><span>Sales Cloud</span></h3>
               <div class="content">
                 <ul>
                   <li>Accelerate your business growth by selling smarter.</li>
@@ -44,7 +44,7 @@ function SalesforeProducts() {
               </div>
             </div>
             <div class="col-lg-4 p-lg-3">
-              <h3>Service Cloud</h3>
+              <h3><span>Service Cloud</span></h3>
               <div class="content">
                 <ul>
                   <li>Deliver personalized service.</li>
@@ -70,7 +70,7 @@ function SalesforeProducts() {
               </div>
             </div>
             <div class="col-lg-4 p-lg-3">
-              <h3>Marketing Cloud</h3>
+              <h3><span>Marketing Cloud</span></h3>
               <div class="content">
                 <ul>
                   <li>Engage with your customer with meaningful messages.</li>
@@ -95,7 +95,7 @@ function SalesforeProducts() {
         <div class="container">
           <div class="row">
             <div class="col-lg-4 p-lg-3">
-              <h3>Community Cloud</h3>
+              <h3><span>Community Cloud</span></h3>
               <div class="content">
                 <ul>
                   <li>Personalized connect with your customers via customer</li>
@@ -113,7 +113,7 @@ function SalesforeProducts() {
               </div>
             </div>
             <div class="col-lg-4 p-lg-3">
-              <h3>Salesforce Platform</h3>
+              <h3><span>Salesforce Platform</span></h3>
               <div class="content">
                 <ul>
                   <li>Deliver personalized service.</li>
@@ -135,7 +135,7 @@ function SalesforeProducts() {
               </div>
             </div>
             <div class="col-lg-4 p-lg-3">
-              <h3>Analytics</h3>
+              <h3><span>Analytics</span></h3>
               <div class="content">
                 <ul>
                   <li>Access your data across the enterprise.</li>

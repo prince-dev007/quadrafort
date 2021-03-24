@@ -51,8 +51,14 @@
     margin-top: 20px;
     border: 0px solid #000;
     height:320px;
-
-  
+}
+#product2 span
+{
+    border-bottom: 2px solid #000;
+}
+#product3 span
+{
+    border-bottom: 2px solid #000;
 }
 
 #product3 h3
