@@ -1,16 +1,16 @@
 import Header from "../Header/Header";
 import "../Assests/css/Style.css";
-import Salesfore from "../Assests/img/Salesforce_Partner_Badge_RGB.png";
+import Salesfore from "../Assests/img/Salesforce_Partner_Badge_Trnsp_Hrzntl_RGB.png";
 import Logo from "../Assests/img/hand.svg";
 import Image from "../Assests/img/christian-wiediger-WkfDrhxDMC8-unsplash.jpg";
 import Image21 from "../Assests/img/firmbee-com-jrh5lAq-mIs-unsplash.jpg";
 import Image22 from "../Assests/img/isaac-smith-6EnTPvPPL6I-unsplash.jpg";
 import Image2 from "../Assests/img/process.png";
-import Mobile from '../Assests/img/mobile.png';
+import Mobile from "../Assests/img/mobile.png";
 import Footer from "../Footer/Footer";
-import Parks from '../Assests/img/parks.png'
-import Fortune from '../Assests/img/fortune.png'
-import dentsu from '../Assests/img/dentsu.png'
+import Parks from "../Assests/img/parks.png";
+import Fortune from "../Assests/img/fortune.png";
+import dentsu from "../Assests/img/dentsu.png";
 function Body() {
   return (
     <>
@@ -211,7 +211,6 @@ function Body() {
                     <br />
                     Backend Technology Setup Support and Training
                   </p>
-                
                 </div>
               </div>
             </div>
@@ -231,7 +230,6 @@ function Body() {
                     <br />
                     Reports & Dashboards
                   </p>
-                
                 </div>
               </div>
             </div>
@@ -248,7 +246,6 @@ function Body() {
                     Enhancements <br />
                     New Developments
                   </p>
-               
                 </div>
               </div>
             </div>
@@ -257,53 +254,62 @@ function Body() {
       </div>
       <div class="container-fluid mt-5 mb-5" id="section7">
         <div class="container">
-            <h1>Field Force Management</h1>
-            <p class="mt-3">A quick start implementation using Salesforce platform to manage the field force in any retail or manufacturing scenario operating on a channel framework.
-The time required for the set up would be 6-8 weeks as per the requirements. The key KPIs benchmarked as per the industry best practices</p>
+          <h1>Field Force Management</h1>
+          <p class="mt-3">
+            A quick start implementation using Salesforce platform to manage the
+            field force in any retail or manufacturing scenario operating on a
+            channel framework. The time required for the set up would be 6-8
+            weeks as per the requirements. The key KPIs benchmarked as per the
+            industry best practices
+          </p>
           <div class="row">
             <div class="col-lg-8">
               <div class="row mt-3">
                 <div class="col-lg-4">
-                <i class='bx bxs-category'></i>
-                 <h2>Journey Planning</h2>
-                 <ul>
-                 <li>Beat Plan & Activity Tracking</li>
-                 <li> Engagement Map.</li>
-                 <li>Geo tagging</li>
-                 <li>SLA mapping </li>
-                 <li>Visit management</li>
-                 <li> Order Booking</li>
-                   </ul>
-                  </div>
-                  <div class="col-lg-4">
-                  <i class='bx bx-merge' ></i>
+                  <i class="bx bxs-category"></i>
+                  <h2>Journey Planning</h2>
+                  <ul>
+                    <li>Beat Plan & Activity Tracking</li>
+                    <li> Engagement Map.</li>
+                    <li>Geo tagging</li>
+                    <li>SLA mapping </li>
+                    <li>Visit management</li>
+                    <li> Order Booking</li>
+                  </ul>
+                </div>
+                <div class="col-lg-4">
+                  <i class="bx bx-merge"></i>
                   <h2>Performance Management</h2>
                   <ul>
-                  <li>KPI Monitoring</li>
-                  <li>Quota set up</li>
-                  <li>Order</li>
-                  <li>MIS</li>
-                  <li>Expense</li>
-                  <li>Leaves</li>
-                    </ul>
-                  </div>
-                  <div class="col-lg-4">
-                  <i class='bx bx-braille' ></i>
+                    <li>KPI Monitoring</li>
+                    <li>Quota set up</li>
+                    <li>Order</li>
+                    <li>MIS</li>
+                    <li>Expense</li>
+                    <li>Leaves</li>
+                  </ul>
+                </div>
+                <div class="col-lg-4">
+                  <i class="bx bx-braille"></i>
                   <h2>Customer Service</h2>
                   <ul>
-                  <li>Complain Tracking</li>
-                  <li>SLA</li>
-                  <li>Escalation matrix</li>
-                  <li>CTI Integration</li>
-                    </ul>
-                  </div>
+                    <li>Complain Tracking</li>
+                    <li>SLA</li>
+                    <li>Escalation matrix</li>
+                    <li>CTI Integration</li>
+                  </ul>
                 </div>
               </div>
-              <div class="col-lg-4">
-              <img src={Mobile} class="img-fluid rounded shadow-lg" alt="Quadrafort"/>
-              </div>
+            </div>
+            <div class="col-lg-4">
+              <img
+                src={Mobile}
+                class="img-fluid rounded shadow-lg"
+                alt="Quadrafort"
+              />
             </div>
           </div>
+        </div>
       </div>
       <Footer />
     </>

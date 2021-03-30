@@ -166,6 +166,7 @@
   color: #000;
   list-style-type: disc;
   padding: 2px;
+  font-weight: bold;
 }
 #section4 {
   background: #eeeeee;
@@ -203,10 +204,16 @@
   font-weight: bold;
 }
 #section5 h5 {
-  font-weight: bold;
+  font-weight: bolder;
+    color: #0288d1;
 }
+#section5  p {
+
+    font-weight: bold;
+  }
 #section5 .row p {
   font-size: 0.8rem;
+  font-weight: bold;
 }
 #section5 h1::before {
   content: "";
@@ -263,6 +270,7 @@
 #section6 p {
   color: #fff;
   font-weight: bold;
+
 }
 #section6 h2 {
   color: #fff;
