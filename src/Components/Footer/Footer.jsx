@@ -57,7 +57,7 @@ function Footer() {
             <h2 class="mt-3">Contact</h2>
             <p>
               Address: Quadrafort, Advant Navis Business Park, Sector 142, Noida
-              - 20130, India
+              - 201305, India
             </p>
             <p>
               Phone: + 91 120 4561770

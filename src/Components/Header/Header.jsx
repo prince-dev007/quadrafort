@@ -1,17 +1,12 @@
 import Logo from '../Assests/img/logo.png';
 import {Link} from 'react-router-dom';
 import './Header.css';
-import $ from 'jquery';
+
 function Header() {
-  $(function () {
-    $(document).scroll(function () {
-      var $nav = $(".fixed-top");
-      $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-    });
-  });
+
   return (
     <>
-      <nav class="navbar navbar-expand-lg navbar-light p-lg-4 fixed-top animate__animated animate__fadeInDown"   >
+      <nav class="navbar navbar-expand-lg navbar-light p-lg-4 animate__animated animate__fadeInDown"   >
         <a class="navbar-brand" href="#Quadrafort">
             <img src={Logo} height="100px" alt="Quadrafort" />
         </a>

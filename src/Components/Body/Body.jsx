@@ -1,20 +1,22 @@
 import Header from "../Header/Header";
 import "../Assests/css/Style.css";
-import Salesfore from "../Assests/img/0_fcNjCdBDJ3fy9Kqt.png";
-import Logo from "../Assests/img/text.svg";
+import Salesfore from "../Assests/img/Salesforce_Partner_Badge_RGB.png";
+import Logo from "../Assests/img/hand.svg";
 import Image from "../Assests/img/christian-wiediger-WkfDrhxDMC8-unsplash.jpg";
+import Image21 from "../Assests/img/firmbee-com-jrh5lAq-mIs-unsplash.jpg";
+import Image22 from "../Assests/img/isaac-smith-6EnTPvPPL6I-unsplash.jpg";
 import Image2 from "../Assests/img/process.png";
 import Image3 from "../Assests/img/jo-szczepanska-5aiRb5f464A-unsplash.jpg";
 import Footer from "../Footer/Footer";
 function Body() {
   return (
     <>
-      <Header />
+
       <div class="container-fluid " id="section1">
+      <Header />
         <div class="container animate__animated animate__fadeInUp ">
           <br />
           <img
-            class="animate__animated animate__bounce"
             src={Salesfore}
             height="100px"
             alt=""
@@ -31,13 +33,13 @@ function Body() {
       </div>
       <div class="container-fluid mt-5" id="section2">
         <h1>About Quadrafort</h1>
-        <div class="row mt-5 p-lg-5">
+        <div class="row mt-3 p-lg-5">
           <div class="col-lg-6">
             <img src={Logo} class="img-fluid" alt="" />
           </div>
           <div class="col-lg-6 p-lg-5">
             <h2>WHO WE ARE ?</h2>
-            <h3>Get to know about our company</h3>
+            <h3 class="mt-3">Get to know about our company</h3>
             <p>
               We at Quadrafort assist our customers in enhancing Productivity
               and Business efficiency achieved by our best in class Cloud
@@ -51,89 +53,7 @@ function Body() {
               transformation journey with least disruption with emphasis on
               proper adoption, to aid in achieving complex business goals.
             </p>
-            <button class="btn">Read More</button>
-          </div>
-        </div>
-      </div>
-      <div class="container-fluid" id="section3">
-        <div class="container">
-          <h1>Services</h1>
-          <div class="row mt-5">
-            <div class="col-lg-4">
-              <div class="card ">
-                <img src={Image} class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <h2>Sales Cloud</h2>
-                  <ul>
-                    <li>Accelerate your business growth by selling smarter.</li>
-                    <li>
-                      Equip your sales team with a customer centric engagement
-                      plan.
-                    </li>
-                    <li>
-                      Keep deals moving forward with AI-powered sales tools.
-                    </li>
-                    <li>
-                      Create a personalized sales journey for every customer.
-                    </li>
-                    <li>Increase the efficiency of the sales team.</li>
-                    <li>Power the next generation of inside sales reps.</li>
-                    <li>Convert you deals into cash at a faster pace.</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4">
-              <div class="card ">
-                <img src={Image} class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <h2>Service Cloud</h2>
-                  <ul>
-                    <li>Deliver personalized service.</li>
-                    <li>
-                      Manage cases, track histories, and more from one Lightning
-                      console.
-                    </li>
-                    <li>Interact with customers in real time, 24/7.</li>
-                    <li>
-                      Help customers help themselves with self-service
-                      communities.
-                    </li>
-                    <li>
-                      Help agents to work smarter with easy access to shared
-                      knowledge.
-                    </li>
-                    <li>Integrate customer support directly into your apps.</li>
-                    <li>
-                      Connect with field reps anywhere instantly with Field
-                      Service Lightning.
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4">
-              <div class="card">
-                <img src={Image} class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <h2>Marketing Cloud</h2>
-                  <ul>
-                    <li>Engage with your customer with meaningful messages.</li>
-                    <li>
-                      Create end to end customer journeys which are personalized
-                      and connected.
-                    </li>
-                    <li>
-                      Engage smarter with the prospects via different channel.
-                    </li>
-                    <li>Enhance and track the marketing ROI.</li>
-                    <li>AI powered marketing strategy.</li>
-                    <li>Boast your sales with a strong pipeline.</li>
-                    <li>Redefine your brand identity.</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
+            <button class="btn shadow-lg">Read More</button>
           </div>
         </div>
       </div>
@@ -191,8 +111,91 @@ function Body() {
           </div>
         </div>
       </div>
+      <div class="container-fluid mt-4" id="section3">
+        <div class="container p-lg-3">
+          <h1>Our Services</h1>
+          <div class="row mt-5">
+            <div class="col-lg-4">
+              <div class="card ">
+                <img src={Image} class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h2>Sales Cloud</h2>
+                  <ul>
+                    <li>Accelerate your business growth by selling smarter.</li>
+                    <li>
+                      Equip your sales team with a customer centric engagement
+                      plan.
+                    </li>
+                    <li>
+                      Keep deals moving forward with AI-powered sales tools.
+                    </li>
+                    <li>
+                      Create a personalized sales journey for every customer.
+                    </li>
+                    <li>Increase the efficiency of the sales team.</li>
+                    <li>Power the next generation of inside sales reps.</li>
+                    <li>Convert you deals into cash at a faster pace.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card ">
+                <img src={Image21} class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h2>Service Cloud</h2>
+                  <ul>
+                    <li>Deliver personalized service.</li>
+                    <li>
+                      Manage cases, track histories, and more from one Lightning
+                      console.
+                    </li>
+                    <li>Interact with customers in real time, 24/7.</li>
+                    <li>
+                      Help customers help themselves with self-service
+                      communities.
+                    </li>
+                    <li>
+                      Help agents to work smarter with easy access to shared
+                      knowledge.
+                    </li>
+                    <li>Integrate customer support directly into your apps.</li>
+                    <li>
+                      Connect with field reps anywhere instantly with Field
+                      Service Lightning.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card">
+                <img src={Image22} class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h2>Marketing Cloud</h2>
+                  <ul>
+                    <li>Engage with your customer with meaningful messages.</li>
+                    <li>
+                      Create end to end customer journeys which are personalized
+                      and connected.
+                    </li>
+                    <li>
+                      Engage smarter with the prospects via different channel.
+                    </li>
+                    <li>Enhance and track the marketing ROI.</li>
+                    <li>AI powered marketing strategy.</li>
+                    <li>Boast your sales with a strong pipeline.</li>
+                    <li>Redefine your brand identity.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
       <div class="container-fluid" id="section5">
-        <div class="container p-lg-5">
+        <div class="container p-lg-3">
           <h1>Recent Projects</h1>
           <div class="row mt-5">
             <div class="col-lg-4">
@@ -204,7 +207,7 @@ function Body() {
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
                   </p>
-                  <a href="#Quadrafort" class="btn ">
+                  <a href="#Quadrafort" class="btn shadow-lg">
                   Read More
                   </a>
                 </div>
@@ -220,7 +223,7 @@ function Body() {
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
                   </p>
-                  <a href="#Quadrafort" class="btn ">
+                  <a href="#Quadrafort" class="btn shadow-lg">
                   Read More
                   </a>
                 </div>
@@ -236,7 +239,7 @@ function Body() {
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
                   </p>
-                  <a href="#Quadrafort" class="btn ">
+                  <a href="#Quadrafort" class="btn shadow-lg">
                     Read More
                   </a>
                 </div>

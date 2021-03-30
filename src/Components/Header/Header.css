@@ -3,9 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+.navbar
+{
+  background:transparent;
+}
 .navbar ul li a {
-  font-weight: bold;
+  font-weight: bolder;
   color: #fff !important;
   transition: 2s;
   position: relative;
@@ -23,8 +26,4 @@
 .navbar ul li a:hover::before {
   width: 100%;
   overflow: hidden;
-}
-.fixed-top.scrolled {
-  background-color: #000 !important;
-  transition: background-color 1s infinite;
 }
