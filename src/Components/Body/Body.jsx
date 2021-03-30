@@ -6,7 +6,6 @@ import Image from "../Assests/img/christian-wiediger-WkfDrhxDMC8-unsplash.jpg";
 import Image21 from "../Assests/img/firmbee-com-jrh5lAq-mIs-unsplash.jpg";
 import Image22 from "../Assests/img/isaac-smith-6EnTPvPPL6I-unsplash.jpg";
 import Image2 from "../Assests/img/process.png";
-import Image3 from "../Assests/img/jo-szczepanska-5aiRb5f464A-unsplash.jpg";
 import Mobile from '../Assests/img/mobile.png';
 import Footer from "../Footer/Footer";
 import Parks from '../Assests/img/parks.png'
