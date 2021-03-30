@@ -31,7 +31,6 @@
 }
 
 #section1 .container {
- 
   text-align: center;
 }
 #section1 .container h1 {
@@ -77,8 +76,7 @@
   height: 50px;
 }
 #section1 .container .btn:hover {
-    color: #fff;
-
+  color: #fff;
 }
 
 #section2 h1 {
@@ -106,50 +104,47 @@
   font-weight: bold;
 }
 #section2 .btn {
-    background: #1976d2;
-    color: #fff;
-    padding: 8px 20px;
-    border-radius: 0px;
-    font-size: 1.2rem;
-    font-weight: bold;
-    position: relative;
-    border: none;
-    overflow: hidden;
-    transition: 0.78s;
-    z-index: 0;
-    box-shadow: none;
+  background: #1976d2;
+  color: #fff;
+  padding: 8px 20px;
+  border-radius: 0px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  position: relative;
+  border: none;
+  overflow: hidden;
+  transition: 0.78s;
+  z-index: 0;
+  box-shadow: none;
 }
 
 #section2 .btn::after {
-    position: absolute;
-    content: "";
-    height: 0px;
-    width: 100%;
-    top: 0;
-    left: 0;
-    background: #000;
-    overflow: hidden;
-    right: 0;
-    transition: 0.78s;
-    overflow: hidden;
-    z-index: -1;
-  }
-  #section2 .btn:hover::after {
-    height: 50px;
-  }
-  #section2  .btn:hover {
-      color: #fff;
-  
-  }
-  #section2 p
-  {
-      font-weight: bold;
-  }
+  position: absolute;
+  content: "";
+  height: 0px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: #000;
+  overflow: hidden;
+  right: 0;
+  transition: 0.78s;
+  overflow: hidden;
+  z-index: -1;
+}
+#section2 .btn:hover::after {
+  height: 50px;
+}
+#section2 .btn:hover {
+  color: #fff;
+}
+#section2 p {
+  font-weight: bold;
+}
 
 #section3 h1 {
-    font-weight: bold;
+  font-weight: bold;
   position: relative;
-
 }
 #section3 h1::before {
   content: "";
@@ -178,9 +173,8 @@
 #section4 h3 {
   font-weight: bold;
 }
-#section4 p 
-{
-    font-weight: bold;
+#section4 p {
+  font-weight: bold;
 }
 #section4 h1 {
   font-weight: bold;
@@ -208,6 +202,12 @@
   position: relative;
   font-weight: bold;
 }
+#section5 h5 {
+  font-weight: bold;
+}
+#section5 .row p {
+  font-size: 0.8rem;
+}
 #section5 h1::before {
   content: "";
   height: 2px;
@@ -218,41 +218,43 @@
   background: #0288d1;
 }
 #section5 .btn {
-    background: #1976d2;
-    color: #fff;
-    padding: 8px 20px;
-    border-radius: 0px;
-    font-size: 1rem;
-    font-weight: bold;
-    position: relative;
-    border: none;
-    overflow: hidden;
-    transition: 0.78s;
-    z-index: 0;
-    box-shadow: none;
+  background: #1976d2;
+  color: #fff;
+  padding: 8px 20px;
+  border-radius: 0px;
+  font-size: 1rem;
+  font-weight: bold;
+  position: relative;
+  border: none;
+  overflow: hidden;
+  transition: 0.78s;
+  z-index: 0;
+  box-shadow: none;
 }
 
 #section5 .btn::after {
-    position: absolute;
-    content: "";
-    height: 0px;
-    width: 100%;
-    top: 0;
-    left: 0;
-    background: #000;
-    overflow: hidden;
-    right: 0;
-    transition: 0.78s;
-    overflow: hidden;
-    z-index: -1;
-  }
-  #section5 .btn:hover::after {
-    height: 50px;
-  }
-  #section5  .btn:hover {
-      color: #fff;
-  
-  }
+  position: absolute;
+  content: "";
+  height: 0px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: #000;
+  overflow: hidden;
+  right: 0;
+  transition: 0.78s;
+  overflow: hidden;
+  z-index: -1;
+}
+#section5 .btn:hover::after {
+  height: 50px;
+}
+#section5 .btn:hover {
+  color: #fff;
+}
+#section5 .card {
+  height: 380px;
+}
 #section6 {
   background: url("../img/footernew.png");
   background-size: cover;
@@ -274,6 +276,45 @@
 #section6 .row ul li i {
   color: #fff;
   font-size: 10px;
+}
+#section7 h1 {
+  font-weight: bold;
+  color: #000;
+  position: relative;
+}
+#section7 h1::before {
+  content: "";
+  height: 2px;
+  position: absolute;
+  top: 110%;
+  left: 0;
+  width: 40%;
+  background: #0288d1;
+}
+
+#section7 img
+{
+    height:500px;
+}
+#section7 p
+{
+    font-weight: bold;
+}
+#section7 h2
+{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top:10px;
+}
+#section7 i 
+{
+    font-size:50px;
+    color: #0288d1;
+}
+#section7 ul li
+{
+    font-weight: bold;
+    margin:5px auto;
 }
 #footerSec {
   background-color: #000;

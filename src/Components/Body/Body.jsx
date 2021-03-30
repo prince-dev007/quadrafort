@@ -7,20 +7,19 @@ import Image21 from "../Assests/img/firmbee-com-jrh5lAq-mIs-unsplash.jpg";
 import Image22 from "../Assests/img/isaac-smith-6EnTPvPPL6I-unsplash.jpg";
 import Image2 from "../Assests/img/process.png";
 import Image3 from "../Assests/img/jo-szczepanska-5aiRb5f464A-unsplash.jpg";
+import Mobile from '../Assests/img/mobile.png';
 import Footer from "../Footer/Footer";
+import Parks from '../Assests/img/parks.png'
+import Fortune from '../Assests/img/fortune.png'
+import dentsu from '../Assests/img/dentsu.png'
 function Body() {
   return (
     <>
-
       <div class="container-fluid " id="section1">
-      <Header />
+        <Header />
         <div class="container animate__animated animate__fadeInUp ">
           <br />
-          <img
-            src={Salesfore}
-            height="100px"
-            alt=""
-          />
+          <img src={Salesfore} height="100px" alt="" />
           <h1>
             WE ARE HERE TO HELP YOU WITH <br /> QUALITY , FOCUS & EXCELLENCE
           </h1>
@@ -193,62 +192,121 @@ function Body() {
           </div>
         </div>
       </div>
-      
+
       <div class="container-fluid" id="section5">
         <div class="container p-lg-3">
           <h1>Recent Projects</h1>
-          <div class="row mt-5">
+          <p class="mt-3">Some of the Recent Use Cases</p>
+          <div class="row mt-3">
             <div class="col-lg-4">
-              <div class="card">
-                <img src={Image3} class="card-img-top" alt="..." />
+              <div class="card shadow">
+                <img src={Parks} class="card-img-top" alt="..." />
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">ParksnParking</h5>
                   <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    Setting up the GTM Strategy
+                    <br />
+                    Structuring the customer acquisition process
+                    <br />
+                    Setting up CRM and customer service process
+                    <br />
+                    Backend Technology Setup Support and Training
                   </p>
-                  <a href="#Quadrafort" class="btn shadow-lg">
-                  Read More
-                  </a>
+                
                 </div>
               </div>
             </div>
             <div class="col-lg-4">
-       
-              <div class="card">
-                <img src={Image3} class="card-img-top" alt="..." />
+              <div class="card shadow">
+                <img src={Fortune} class="card-img-top" alt="..." />
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">Fortune Marketing Pvt Ltd</h5>
                   <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    Field force automation
+                    <br />
+                    PJP & Visit Planning
+                    <br />
+                    Call center management
+                    <br />
+                    Order Management
+                    <br />
+                    Reports & Dashboards
                   </p>
-                  <a href="#Quadrafort" class="btn shadow-lg">
-                  Read More
-                  </a>
+                
                 </div>
               </div>
             </div>
             <div class="col-lg-4">
-  
-              <div class="card">
-                <img src={Image3} class="card-img-top" alt="..." />
+              <div class="card shadow">
+                <img src={dentsu} class="card-img-top" alt="..." />
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">Dentsu</h5>
                   <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    System Optimization
+                    <br />
+                    Dedicated Pardot resource
+                    <br />
+                    Enhancements <br />
+                    New Developments
                   </p>
-                  <a href="#Quadrafort" class="btn shadow-lg">
-                    Read More
-                  </a>
+               
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-     <Footer/>
+      <div class="container-fluid mt-5 mb-5" id="section7">
+        <div class="container">
+            <h1>Field Force Management</h1>
+            <p class="mt-3">A quick start implementation using Salesforce platform to manage the field force in any retail or manufacturing scenario operating on a channel framework.
+The time required for the set up would be 6-8 weeks as per the requirements. The key KPIs benchmarked as per the industry best practices</p>
+          <div class="row">
+            <div class="col-lg-8">
+              <div class="row mt-3">
+                <div class="col-lg-4">
+                <i class='bx bxs-category'></i>
+                 <h2>Journey Planning</h2>
+                 <ul>
+                 <li>Beat Plan & Activity Tracking</li>
+                 <li> Engagement Map.</li>
+                 <li>Geo tagging</li>
+                 <li>SLA mapping </li>
+                 <li>Visit management</li>
+                 <li> Order Booking</li>
+                   </ul>
+                  </div>
+                  <div class="col-lg-4">
+                  <i class='bx bx-merge' ></i>
+                  <h2>Performance Management</h2>
+                  <ul>
+                  <li>KPI Monitoring</li>
+                  <li>Quota set up</li>
+                  <li>Order</li>
+                  <li>MIS</li>
+                  <li>Expense</li>
+                  <li>Leaves</li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-4">
+                  <i class='bx bx-braille' ></i>
+                  <h2>Customer Service</h2>
+                  <ul>
+                  <li>Complain Tracking</li>
+                  <li>SLA</li>
+                  <li>Escalation matrix</li>
+                  <li>CTI Integration</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+              <img src={Mobile} class="img-fluid rounded shadow-lg" alt="Quadrafort"/>
+              </div>
+            </div>
+          </div>
+      </div>
+      <Footer />
     </>
   );
 }
