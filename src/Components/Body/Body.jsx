@@ -15,7 +15,7 @@ function Body() {
   return (
     <>
       <div class="container-fluid " id="section1">
-        <Header />
+      <Header />
         <div class="container animate__animated animate__fadeInUp ">
           <br />
           <img src={Salesfore} height="100px" alt="" />
