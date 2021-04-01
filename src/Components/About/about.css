@@ -1,48 +1,79 @@
-*
-{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-#aboutSection1
-{
-    height:100vh;
-    background-image: url('../Assests/img/backsec1.png');
-    background-size: cover;
+#aboutSection1 {
+  height: 100vh;
+  background-image: url("../Assests/img/backsec1.png");
+  background-size: cover;
 }
-#aboutSection1 .container
-{
-    padding-top: 200px;
+#aboutSection1 .container {
+  padding-top: 50px;
 }
-#aboutSection1 .row h1
-{
-    color: #fff;
-    font-weight: bold;
+#aboutSection1 .row h1 {
+  color: #fff;
+  font-weight: bold;
 }
-#aboutSection1 .row span
-{
-    border-bottom: 2px solid #ffff;
+#aboutSection1 .row span {
+  border-bottom: 2px solid #ffff;
 }
-#aboutSection1 .row p
-{
-    color: #fff;
-    margin-top: 30px;
-    font-weight: bold;
+#aboutSection1 .row p {
+  color: #fff;
+  margin-top: 30px;
+  font-weight: bold;
 }
-#aboutSection2 h1
-{
-    text-align: center;
+#aboutSection2 h3 {
+  font-size: 1rem;
+  font-weight: 900;
+  color: #1976d2;
+  margin-top: 10px;
 }
-#aboutSection2 span
-{
-    border-bottom: 2px solid #000;
+#aboutSection2 p {
+  color: #000;
+  margin-top: 20px;
+  font-weight: bold;
 }
-#aboutSection2 .row h3
-{
-    text-align: center;
-    font-weight: bold;
+#aboutSection2 i {
+  font-size: 40px;
+  color: #01579b;
 }
-#aboutSection2 .row ul 
-{
-    margin-top: 30px;
+
+#aboutSection2 h1 {
+  text-align: center;
+  position: relative;
+  font-weight: bold;
+}
+#aboutSection2 h1::before {
+  content: "";
+  height: 3px;
+  background: #0288d1;
+  width: 17%;
+  position: absolute;
+  top: 110%;
+}
+#aboutSection3 h1 {
+  text-align: center;
+  position: relative;
+  font-weight: bold;
+}
+#aboutSection3 h1::before {
+  content: "";
+  height: 3px;
+  background: #0288d1;
+  width: 42%;
+  position: absolute;
+  top: 120%;
+}
+#aboutSection3 h2 {
+  text-align: center;
+  font-weight: bolder;
+  color: #0288d1;
+}
+#aboutSection3 span {
+  font-weight: bolder;
+  font-size: 1rem;
+}
+#aboutSection3 ul {
+  margin-top: 20px;
 }

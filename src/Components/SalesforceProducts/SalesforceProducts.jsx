@@ -1,13 +1,15 @@
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
-import Sales from '../Assests/img/sales.png'
+import Sales from '../Assests/img/salesnew.png'
+import Service from '../Assests/img/24-hours.png'
 import "./sales.css";
 
 function SalesforeProducts() {
   return (
     <>
-      <Header />
+
       <div class="container-fluid" id="product1">
+      <Header />
         <div class="container text-center">
           <h1 class="mt-5">
             Salesforce <span>Products</span> Offerings
@@ -23,43 +25,43 @@ function SalesforeProducts() {
       <div class="container-fluid mt-5" id="product2">
         <div class="container">
           <div class="row">
-            <div class="col-lg-4 p-lg-3">
-            <img  src={Sales} alt="Quadrafort" class="img-fluid"/>
-              <h3>
-                <span>Sales Cloud</span>
-              </h3>
-              <div class="content">
-                <ul>
-                  <li>Accelerate your business growth by selling smarter.</li>
-                  <li>
-                    Equip your sales team with a customer centric engagement
-                    plan.
-                  </li>
-                  <li>
-                    Keep deals moving forward with AI-powered sales tools.
-                  </li>
-                  <li>
-                    Create a personalized sales journey for every customer.
-                  </li>
-                  <li>Increase the efficiency of the sales team.</li>
-                  <li>Power the next generation of inside sales reps.</li>
-                  <li>Convert you deals into cash at a faster pace.</li>
-                </ul>
-              </div>
+            <div class="col-lg-4  ">
+              <img  src={Sales} alt="Quadrafort" class="img-fluid"/>
+                <h3>
+                  <span>Sales Cloud</span>
+                </h3>
+                <div class="content">
+                  <ul>
+                    <li>Accelerate your business growth by selling smarter.</li>
+                    <li>Equip your sales team with a customer centric engagement
+                      plan.
+                    </li>
+                    <li>
+                      Keep deals moving forward with AI-powered sales tools.
+                    </li>
+                    <li>
+                      Create a personalized sales journey for every customer.
+                    </li>
+                    <li> Increase the efficiency of the sales team.</li>
+                    <li> Power the next generation of inside sales reps.</li>
+                    <li> Convert you deals into cash at a faster pace.</li>
+                  </ul>
+                </div>
+    
             </div>
-            <div class="col-lg-4 p-lg-3">
-            <img  src={Sales} alt="Quadrafort" class="img-fluid"/>
+            <div class="col-lg-4 ">
+            <img  src={Service} alt="Quadrafort" class="img-fluid"/>
               <h3>
                 <span>Service Cloud</span>
               </h3>
               <div class="content">
                 <ul>
-                  <li>Deliver personalized service.</li>
+                  <li> Deliver personalized service.</li>
                   <li>
                     Manage cases, track histories, and more from one Lightning
                     console.
                   </li>
-                  <li>Interact with customers in real time, 24/7.</li>
+                  <li> Interact with customers in real time, 24/7.</li>
                   <li>
                     Help customers help themselves with self-service
                     communities.
@@ -68,7 +70,7 @@ function SalesforeProducts() {
                     Help agents to work smarter with easy access to shared
                     knowledge.
                   </li>
-                  <li>Integrate customer support directly into your apps.</li>
+                  <li> Integrate customer support directly into your apps.</li>
                   <li>
                     Connect with field reps anywhere instantly with Field
                     Service Lightning.
@@ -76,14 +78,14 @@ function SalesforeProducts() {
                 </ul>
               </div>
             </div>
-            <div class="col-lg-4 p-lg-3">
+            <div class="col-lg-4 ">
             <img  src={Sales} alt="Quadrafort" class="img-fluid"/>
               <h3>
                 <span>Marketing Cloud</span>
               </h3>
               <div class="content">
                 <ul>
-                  <li>Engage with your customer with meaningful messages.</li>
+                  <li> Engage with your customer with meaningful messages.</li>
                   <li>
                     Create end to end customer journeys which are personalized
                     and connected.
@@ -91,10 +93,10 @@ function SalesforeProducts() {
                   <li>
                     Engage smarter with the prospects via different channel.
                   </li>
-                  <li>Enhance and track the marketing ROI.</li>
-                  <li>AI powered marketing strategy.</li>
-                  <li>Boast your sales with a strong pipeline.</li>
-                  <li>Redefine your brand identity.</li>
+                  <li> Enhance and track the marketing ROI.</li>
+                  <li> AI powered marketing strategy.</li>
+                  <li> Boast your sales with a strong pipeline.</li>
+                  <li> Redefine your brand identity.</li>
                 </ul>
               </div>
             </div>
