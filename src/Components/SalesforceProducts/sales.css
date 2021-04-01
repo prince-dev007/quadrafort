@@ -129,10 +129,11 @@
     text-align: center;
     font-weight: bold;
     color: #1976d2;
+    margin-top: 20px;
 }
 #product4 img
 {
-    height:100px;
+    height:50px;
 }
 #product4 
 {

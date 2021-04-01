@@ -14,7 +14,7 @@
 }
 #contact1 .container
 {
-    padding-top:200px;
+    padding-top:80px;
 }
 #contact1 h1
 {
@@ -36,7 +36,7 @@
 }
 #contact2 h4
 {
-    color: #bf360c;
+    color: #1976d2;
     font-weight: bold
 }
 #contact2 h2
@@ -54,7 +54,7 @@
 }
 #contact2 .btn
 {
-    background:#bf360c;
+    background:#1976d2;
     color: #fff;
     box-shadow: none;
     border-radius:0;
@@ -64,7 +64,7 @@
 {
     box-shadow: none;
     border: none;
-    border: 1px solid #bf360c;
+    border: 1px solid #1976d2;
 
 }
 #contact2 label

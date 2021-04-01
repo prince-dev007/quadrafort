@@ -5,8 +5,9 @@ import './contact.css';
 function Contact(){
     return(
         <>
-            <Header/>
+
             <div class="container-fluid" id="contact1">
+            <Header/>
                 <div class="container">
                     <h1><span>Contact</span> Us</h1>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro labore dignissimos fugiat, ab inventore adipisci quidem autem eveniet explicabo laudantium, repellendus, laborum cumque quas maiores ad veniam itaque dolorem aliquid.</p>

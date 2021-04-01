@@ -4,8 +4,9 @@ import "./carrier.css";
 function Carrier() {
   return (
     <>
-      <Header />
+
       <div class="container-fluid" id="carrier1">
+      <Header />
         <div class="container">
           <h1 class="mt-5"> Career</h1>
           <p>
