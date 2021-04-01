@@ -11,6 +11,7 @@ import Footer from "../Footer/Footer";
 import Parks from "../Assests/img/parks.png";
 import Fortune from "../Assests/img/fortune.png";
 import dentsu from "../Assests/img/dentsu.png";
+
 function Body() {
   return (
     <>
@@ -100,6 +101,7 @@ function Body() {
               <img src={Image2} alt="" />
               <h3>Support & Adoption</h3>
               <p>
+                
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe
                 ut quis quia quisquam itaque quos, sint assumenda soluta
                 nesciunt, est, suscipit officiis obcaecati consequuntur
