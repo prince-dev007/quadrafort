@@ -2,6 +2,15 @@ import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 import Sales from '../Assests/img/salesnew.png'
 import Service from '../Assests/img/24-hours.png'
+import Market from '../Assests/img/social-media.png'
+import Chat from '../Assests/img/chat.png'
+import Web from '../Assests/img/web.png'
+import analytics from '../Assests/img/analytics.png'
+import consultation from '../Assests/img/consultation.png'
+import implement from '../Assests/img/implement.png'
+import integration from '../Assests/img/integration.png'
+import optimization from '../Assests/img/optimization.png'
+import support from '../Assests/img/support.png'
 import "./sales.css";
 
 function SalesforeProducts() {
@@ -79,7 +88,7 @@ function SalesforeProducts() {
               </div>
             </div>
             <div class="col-lg-4 ">
-            <img  src={Sales} alt="Quadrafort" class="img-fluid"/>
+            <img  src={Market} alt="Quadrafort" class="img-fluid"/>
               <h3>
                 <span>Marketing Cloud</span>
               </h3>
@@ -107,7 +116,7 @@ function SalesforeProducts() {
         <div class="container">
           <div class="row">
             <div class="col-lg-4 p-lg-3">
-            <img  src={Sales} alt="Quadrafort" class="img-fluid"/>
+            <img  src={Chat} alt="Quadrafort" class="img-fluid"/>
               <h3>
                 <span>Community Cloud</span>
               </h3>
@@ -124,7 +133,7 @@ function SalesforeProducts() {
               </div>
             </div>
             <div class="col-lg-4 p-lg-3">
-            <img  src={Sales} alt="Quadrafort" class="img-fluid"/>
+            <img  src={Web} alt="Quadrafort" class="img-fluid"/>
               <h3>
                 <span>Salesforce Platform</span>
               </h3>
@@ -141,7 +150,7 @@ function SalesforeProducts() {
               </div>
             </div>
             <div class="col-lg-4 p-lg-3">
-            <img  src={Sales} alt="Quadrafort" class="img-fluid"/>
+            <img  src={analytics} alt="Quadrafort" class="img-fluid"/>
               <h3>
                 <span>Analytics</span>
               </h3>
@@ -165,7 +174,7 @@ function SalesforeProducts() {
           </h1>
           <div class="row mt-5">
             <div class="col-lg-4">
-            <img  src={Sales} alt="Quadrafort" class="img-fluid"/>
+            <img  src={consultation} alt="Quadrafort" class="img-fluid"/>
               <h3>Process Consulting</h3>
               <p>
                 Our highly valued Consulting services expertise, across
@@ -178,7 +187,7 @@ function SalesforeProducts() {
               </p>
             </div>
             <div class="col-lg-4">
-            <img  src={Sales} alt="Quadrafort" class="img-fluid"/>
+            <img  src={implement} alt="Quadrafort" class="img-fluid"/>
               <h3>Salesforce Product Implementation</h3>
               <p>
                 We help customers across industry verticals in redefining their
@@ -190,7 +199,7 @@ function SalesforeProducts() {
               </p>
             </div>
             <div class="col-lg-4">
-            <img  src={Sales} alt="Quadrafort" class="img-fluid"/>
+            <img  src={integration} alt="Quadrafort" class="img-fluid"/>
               <h3>System Integration</h3>
               <p>
                 Our team of Integration architects help our customers to get
@@ -204,7 +213,7 @@ function SalesforeProducts() {
           </div>
           <div class="row mt-3">
             <div class="col-lg-4">
-            <img  src={Sales} alt="Quadrafort" class="img-fluid"/>
+            <img  src={optimization} alt="Quadrafort" class="img-fluid"/>
               <h3>Audit & Optimization</h3>
               <p>
                 Our team of technical architects helps enterprises in assessing
@@ -215,7 +224,7 @@ function SalesforeProducts() {
               </p>
             </div>
             <div class="col-lg-4">
-            <img  src={Sales} alt="Quadrafort" class="img-fluid"/>
+            <img  src={support} alt="Quadrafort" class="img-fluid"/>
               <h3>Support & Adoption</h3>
               <p>
                 The success of any implementation depends on its adoption. We
