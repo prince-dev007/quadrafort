@@ -15,11 +15,10 @@ import dentsu from "../Assests/img/dentsu.png";
 import { useState} from "react";
 
 function Body() {
-  const[progress,setProgress] = useState(false);
+  const[progress,setProgress] = useState(true);
     window.addEventListener('load',checkLoad);
   function checkLoad() {
     console.log('Start');
-    setProgress(true);
     endLoad();
   }
   function endLoad()
