@@ -24,7 +24,8 @@ function Contact(){
                                 <p>Regd Office - 3/15, East Patel Nagar, New Delhi - 110008,India</p>
                                 <h4>View on Google Maps</h4>
                             </div>
-                            <div class="col-lg-6 p-lg-5">
+                            <div class="col-lg-6 p-lg-2 mb-5">
+                                <h2>How can we help?</h2>
                                 <form>
                                 <div class="form-group">
                                     <label>Enter your Full Name</label>
@@ -33,6 +34,16 @@ function Contact(){
                                 <div class="form-group">
                                     <label>Enter your Email Address</label>
                                     <input type="text" class="form-control" required placeholder="Enter your Email Address"/>
+                                </div>
+                                <div class="form-group">
+                                    <label>Select a topic from the list below to help us connect you to the right department.</label>
+                                   <select class="form-control">
+                                        <option selected>Choose Department</option>
+                                        <option>Sales</option>
+                                        <option>Careers</option>
+                                        <option>Solutions</option>
+                                        <option>Marketing</option>
+                                   </select>
                                 </div>
                                 <div class="form-group">
                                     <label>Enter your Message</label>
