@@ -12,20 +12,20 @@ import Footer from "../Footer/Footer";
 import Parks from "../Assests/img/parks.png";
 import Fortune from "../Assests/img/fortune.png";
 import dentsu from "../Assests/img/dentsu.png";
-import { useState } from "react";
+import { useState,useEffect } from "react";
 
 function Body() {
-  const [progress, setProgress] = useState(false);
-  let check = window.addEventListener('load', (event) => {
-    console.log('Page Loaded');
-    setfunction();
-  });
-  function setfunction(){
-    if(check)
-    setProgress(true);
-    else
+  const [progress, setProgress] = useState(true);
+  // window.addEventListener('load', (event) => {
+  //   console.log('Page loaded');
+  //   setProgress(true);
+  // });
+  
+  useEffect(() =>{
     setProgress(false);
-  }
+  },[]);
+
+ 
 
   return (
     <>
@@ -34,6 +34,7 @@ function Body() {
       <img src={LogoQ} class="img-fluid" alt="Quadrafort" />
 
 </div>:null}
+
       <div class="container-fluid " id="section1">
       <Header />
         <div class="container animate__animated animate__fadeInUp ">
