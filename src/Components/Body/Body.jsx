@@ -1,5 +1,6 @@
 import Header from "../Header/Header";
 import "../Assests/css/Style.css";
+import LogoQ from '../Assests/img/logo.png';
 import Salesfore from "../Assests/img/Salesforce_Partner_Badge_Trnsp_Hrzntl_RGB.png";
 import Logo from "../Assests/img/hand.svg";
 import Image from "../Assests/img/christian-wiediger-WkfDrhxDMC8-unsplash.jpg";
@@ -11,10 +12,28 @@ import Footer from "../Footer/Footer";
 import Parks from "../Assests/img/parks.png";
 import Fortune from "../Assests/img/fortune.png";
 import dentsu from "../Assests/img/dentsu.png";
+import { useState } from "react";
 
 function Body() {
+  const [progress, setProgress] = useState(false);
+  let check = window.addEventListener('load', (event) => {
+    console.log('Page Loaded');
+    setfunction();
+  });
+  function setfunction(){
+    if(check)
+    setProgress(true);
+    else
+    setProgress(false);
+  }
+
   return (
     <>
+    {progress ?<div class="container-fluid text-center p-0 d-flex align-items-center justify-content-center" id="loading">
+      
+      <img src={LogoQ} class="img-fluid" alt="Quadrafort" />
+
+</div>:null}
       <div class="container-fluid " id="section1">
       <Header />
         <div class="container animate__animated animate__fadeInUp ">
@@ -257,17 +276,19 @@ function Body() {
       <div class="container-fluid mt-5 mb-5" id="section7">
         <div class="container">
           <h1>Field Force Management</h1>
-          <p class="mt-3">
+          
+          <div class="row">
+            <div class="col-lg-8">
+              <div class="row mt-3">
+              <p class="mt-3">
             A quick start implementation using Salesforce platform to manage the
             field force in any retail or manufacturing scenario operating on a
             channel framework. The time required for the set up would be 6-8
             weeks as per the requirements. The key KPIs benchmarked as per the
             industry best practices
           </p>
-          <div class="row">
-            <div class="col-lg-8">
-              <div class="row mt-3">
                 <div class="col-lg-4">
+                  
                   <i class="bx bxs-category"></i>
                   <h2>Journey Planning</h2>
                   <ul>

@@ -330,3 +330,30 @@
 #footerSec p {
   color: #fff;
 }
+
+#loading
+{
+  height:100vh;
+  width: 100%;
+  background:#000 ;
+  position:fixed;
+  z-index: 1000;
+}
+#loading img
+{
+  height:200px;
+  transform-origin: 50% 50%;
+  animation: zoominoutsinglefeatured 1s infinite ;
+}
+@keyframes zoominoutsinglefeatured {
+  0% {
+      transform: scale(1,1);
+  }
+  50% {
+      transform: scale(1.2,1.2);
+  }
+  100% {
+      transform: scale(1,1);
+  }
+}
+

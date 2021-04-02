@@ -3,9 +3,10 @@ import {Link} from 'react-router-dom';
 import './Header.css';
 
 function Header() {
-
+  
   return (
     <>
+      
       <nav class="navbar navbar-expand-lg navbar-light p-lg-4 animate__animated animate__fadeInDown"   >
         <a class="navbar-brand" href="#Quadrafort">
             <img src={Logo} height="100px" alt="Quadrafort" />
@@ -50,8 +51,6 @@ function Header() {
           </ul>
         </div>
       </nav>
-      
-
     </>
   );
 }
