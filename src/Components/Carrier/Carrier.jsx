@@ -10,13 +10,9 @@ function Carrier() {
         <div class="container">
           <h1 class="mt-5"> Career</h1>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia,
-            harum inventore quae qui id modi nemo velit officia soluta ducimus
-            reiciendis dolor non maiores corporis placeat, ipsa eum dolore
-            autem! Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Voluptatum mollitia labore veniam modi minus. Quo perspiciatis,
-            reiciendis hic qui sed veritatis voluptas mollitia cumque quis rem
-            harum aliquid minus debitis!
+          If you are an aggressive, go getter with a mind bend to excel in your domain, Quadrafort is the place for you.
+
+Join the team to make a mark for yourself and enjoy one of the best rewarding environments for Professional Excellence.
           </p>
         </div>
       </div>
