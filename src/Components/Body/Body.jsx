@@ -12,15 +12,12 @@ import Footer from "../Footer/Footer";
 import Parks from "../Assests/img/parks.png";
 import Fortune from "../Assests/img/fortune.png";
 import dentsu from "../Assests/img/dentsu.png";
-import { useState,useEffect } from "react";
+import { useState} from "react";
 
 function Body() {
   const[progress,setProgress] = useState(false);
-
-  function loading(){
+  
     window.addEventListener('load',checkLoad);
-    checkLoad()
-  }
   function checkLoad() {
     console.log('Start');
     endLoad();
@@ -30,11 +27,6 @@ function Body() {
     console.log('End');
     setProgress(false);
   }
-
-  useEffect(() => {
-    console.log('Call')
-    loading();
-  });
   return (
     <>
     {progress ?<div class="container-fluid text-center p-0 d-flex align-items-center justify-content-center" id="loading">
