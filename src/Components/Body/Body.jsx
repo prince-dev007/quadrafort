@@ -12,19 +12,21 @@ import Footer from "../Footer/Footer";
 import Parks from "../Assests/img/parks.png";
 import Fortune from "../Assests/img/fortune.png";
 import dentsu from "../Assests/img/dentsu.png";
-import { useState,useEffect } from "react";
+import { useState} from "react";
 
 function Body() {
-  const [progress, setProgress] = useState(true);
-  // window.addEventListener('load', (event) => {
-  //   console.log('Page loaded');
-  //   setProgress(true);
-  // });
-  
-  useEffect(() =>{
+  const[progress,setProgress] = useState(true);
+    window.addEventListener('load',checkLoad);
+  function checkLoad() {
+    console.log('Start');
+    setProgress(true);
+    endLoad();
+  }
+  function endLoad()
+  {
+    console.log('End');
     setProgress(false);
-  },[]);
-
+  }
  
 
   return (
