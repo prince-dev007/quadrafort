@@ -15,7 +15,7 @@ import dentsu from "../Assests/img/dentsu.png";
 import { useState} from "react";
 
 function Body() {
-  const[progress,setProgress] = useState(true);
+  const[progress,setProgress] = useState(false);
     window.addEventListener('load',checkLoad);
   function checkLoad() {
     console.log('Start');
@@ -27,8 +27,6 @@ function Body() {
     console.log('End');
     setProgress(false);
   }
- 
-
   return (
     <>
     {progress ?<div class="container-fluid text-center p-0 d-flex align-items-center justify-content-center" id="loading">
