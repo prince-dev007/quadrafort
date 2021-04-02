@@ -338,7 +338,6 @@
   background:#000 ;
   position:fixed;
   z-index: 1000;
-  opacity: 1;
 }
 #loading img
 {

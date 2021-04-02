@@ -16,8 +16,8 @@ import { useState} from "react";
 
 function Body() {
   const[progress,setProgress] = useState(false);
+  window.addEventListener('load',checkLoad);
   
-    window.addEventListener('load',checkLoad);
   function checkLoad() {
     console.log('Start');
     endLoad();
