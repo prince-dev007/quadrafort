@@ -19,10 +19,10 @@ function Body() {
 
   function loading(){
     window.addEventListener('load',checkLoad);
+    checkLoad()
   }
   function checkLoad() {
     console.log('Start');
-    setProgress(true)
     endLoad();
   }
   function endLoad()
