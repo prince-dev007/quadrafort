@@ -10,7 +10,9 @@ function Contact(){
             <Header/>
                 <div class="container">
                     <h1><span>Contact</span> Us</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro labore dignissimos fugiat, ab inventore adipisci quidem autem eveniet explicabo laudantium, repellendus, laborum cumque quas maiores ad veniam itaque dolorem aliquid.</p>
+                    <p>If you are an aggressive, go getter with a mind bend to excel in your domain, Quadrafort is the place for you.
+
+Join the team to make a mark for yourself and enjoy one of the best rewarding environments for Professional Excellence.</p>
                 </div>
             </div>
             <div class="container-fliud mt-5" id="contact2">
