@@ -61,9 +61,7 @@ Join the team to make a mark for yourself and enjoy one of the best rewarding en
                 </li>
                 <li>Knowledge about Salesforce limitations and solutions</li>
               </ul>
-              <button type="button" class="btn">
-                Send CV
-              </button>
+              <a href="mailto:info@quadrafort.com" class="btn">Send CV</a>
             </div>
             <div class="col-lg-6">
               <h3>Position: Salesforce Lightning Developers</h3>
@@ -112,9 +110,7 @@ Join the team to make a mark for yourself and enjoy one of the best rewarding en
                   solutions.
                 </li>
               </ul>
-              <button type="button" class="btn">
-                Send CV
-              </button>
+          <a href="mailto:info@quadrafort.com" class="btn">Send CV</a>
             </div>
           </div>
         </div>

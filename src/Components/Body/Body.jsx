@@ -13,6 +13,7 @@ import Parks from "../Assests/img/parks.png";
 import Fortune from "../Assests/img/fortune.png";
 import dentsu from "../Assests/img/dentsu.png";
 import { useState} from "react";
+import SAP from '../Assests/img/sapnew.png';
 
 function Body() {
   const[progress,setProgress] = useState(false);
@@ -25,6 +26,10 @@ function Body() {
   function endLoad()
   {
     setProgress(false);
+  }
+  setTimeout(function(){ OpenModal() }, 2000);
+  function OpenModal() {
+    window.$('#exampleModal').modal('show');
   }
   return (
     <>
@@ -334,6 +339,15 @@ function Body() {
           </div>
         </div>
       </div>
+    <div class="modal fade p-0 "  id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered p-0 modal-dialog modal-xl">
+        <div class="modal-content p-0">
+          <div class="modal-body p-0 mb-0 text-center shadow-lg rounded">
+          <img src={SAP} class="img-fluid shadow-lg rounded" alt=" Quadrafort"/>
+          </div>
+        </div>
+      </div>
+    </div>
       <Footer />
     </>
   );
