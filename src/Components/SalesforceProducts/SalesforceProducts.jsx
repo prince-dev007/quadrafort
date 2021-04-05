@@ -12,8 +12,12 @@ import integration from '../Assests/img/integration.png'
 import optimization from '../Assests/img/optimization.png'
 import support from '../Assests/img/support.png'
 import "./sales.css";
+import $ from 'jquery'
 
 function SalesforeProducts() {
+  $(document).ready(function(){
+    $(this).scrollTop(0);
+});
   return (
     <>
 

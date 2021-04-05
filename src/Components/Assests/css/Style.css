@@ -4,6 +4,10 @@
   font-family: "Nunito", sans-serif;
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+  transition:1s;
+}
 
 #section1 {
   height: 100vh;
@@ -283,9 +287,10 @@
   font-weight: bold;
 }
 #section6 .row ul li {
-  color: #fff;
+  color: #fff !important;
   list-style: none;
   font-weight: bold;
+  text-decoration: none !important;
 }
 #section6 .row ul li i {
   color: #fff;

@@ -15,8 +15,11 @@ import dentsu from "../Assests/img/dentsu.png";
 import { useState } from "react";
 import SAP from "../Assests/img/sapnew.png";
 import SAP_logo from "../Assests/img/SAP_logo.png";
-
+import $ from 'jquery'
 function Body() {
+  $(document).ready(function(){
+    $(this).scrollTop(0);
+});
   const [progress, setProgress] = useState(false);
   window.addEventListener("load", checkLoad);
   function checkLoad() {

@@ -1,7 +1,11 @@
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 import "./about.css";
+import $ from 'jquery'
 function About() {
+  $(document).ready(function(){
+    $(this).scrollTop(0);
+});
   return (
     <>
       <div class="container-fluid" id="aboutSection1">

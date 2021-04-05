@@ -1,5 +1,6 @@
 import Quad from "../Assests/img/logo.png";
 import "../Assests/css/Style.css";
+import {Link} from "react-router-dom";
 function Footer() {
   return (
     <>
@@ -16,20 +17,20 @@ function Footer() {
           <div class="col-lg-3 p-lg-4">
             <h2 class="mt-3">Quick Links</h2>
             <ul class="mt-3">
-              <li>
-                <i class="bx bxs-right-arrow"></i> Home
+              <li >
+              <Link to= "/" class="text-white"> <i class="bx bxs-right-arrow"></i> Home</Link>
               </li>
               <li>
-                <i class="bx bxs-right-arrow"></i> About Us
+              <Link to= "/About" class="text-white"> <i class="bx bxs-right-arrow"></i> About Us</Link>
               </li>
               <li>
-                <i class="bx bxs-right-arrow"></i> Salesforce
+              <Link to= "/SalesforeProducts" class="text-white"><i class="bx bxs-right-arrow"></i> Salesforce</Link>
               </li>
               <li>
-                <i class="bx bxs-right-arrow"></i>  Career
+               <Link to="/Career" class="text-white"> <i class="bx bxs-right-arrow"></i>  Career</Link>
               </li>
               <li>
-                <i class="bx bxs-right-arrow"></i> Contact Us
+              <Link to="/Contact" class="text-white"> <i class="bx bxs-right-arrow"></i> Contact Us</Link>
               </li>
             </ul>
           </div>

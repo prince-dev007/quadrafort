@@ -1,8 +1,11 @@
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 import "./contact.css";
-
+import $ from 'jquery'
 function Contact() {
+    $(document).ready(function(){
+        $(this).scrollTop(0);
+    });
   return (
     <>
       <div class="container-fluid" id="contact1">

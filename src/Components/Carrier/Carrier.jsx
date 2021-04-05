@@ -1,7 +1,11 @@
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 import "./carrier.css";
+import $ from 'jquery'
 function Carrier() {
+  $(document).ready(function(){
+    $(this).scrollTop(0);
+});
   return (
     <>
 
