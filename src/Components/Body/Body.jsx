@@ -1,6 +1,6 @@
 import Header from "../Header/Header";
 import "../Assests/css/Style.css";
-import LogoQ from '../Assests/img/logo.png';
+import LogoQ from "../Assests/img/logo.png";
 import Salesfore from "../Assests/img/Salesforce_Partner_Badge_Trnsp_Hrzntl_RGB.png";
 import Logo from "../Assests/img/hand.svg";
 import Image from "../Assests/img/christian-wiediger-WkfDrhxDMC8-unsplash.jpg";
@@ -12,35 +12,38 @@ import Footer from "../Footer/Footer";
 import Parks from "../Assests/img/parks.png";
 import Fortune from "../Assests/img/fortune.png";
 import dentsu from "../Assests/img/dentsu.png";
-import { useState} from "react";
-import SAP from '../Assests/img/sapnew.png';
+import { useState } from "react";
+import SAP from "../Assests/img/sapnew.png";
 
 function Body() {
-  const[progress,setProgress] = useState(false);
-  window.addEventListener('load',checkLoad);
+  const [progress, setProgress] = useState(false);
+  window.addEventListener("load", checkLoad);
   function checkLoad() {
-    console.log('Start');
     setProgress(true);
     endLoad();
   }
-  function endLoad()
-  {
+  function endLoad() {
     setProgress(false);
   }
-  setTimeout(function(){ OpenModal() }, 2000);
+  setTimeout(function () {
+    OpenModal();
+  }, 2000);
   function OpenModal() {
-    window.$('#exampleModal').modal('show');
+    window.$("#exampleModal").modal("show");
   }
   return (
     <>
-    {progress ?<div class="container-fluid text-center p-0 d-flex align-items-center justify-content-center" id="loading">
-      
-      <img src={LogoQ} class="img-fluid" alt="Quadrafort" />
-
-</div>:null}
+      {progress ? (
+        <div
+          class="container-fluid text-center p-0 d-flex align-items-center justify-content-center"
+          id="loading"
+        >
+          <img src={LogoQ} class="img-fluid" alt="Quadrafort" />
+        </div>
+      ) : null}
 
       <div class="container-fluid " id="section1">
-      <Header />
+        <Header />
         <div class="container animate__animated animate__fadeInUp ">
           <br />
           <img src={Salesfore} height="100px" alt="" />
@@ -125,7 +128,6 @@ function Body() {
               <img src={Image2} alt="" />
               <h3>Support & Adoption</h3>
               <p>
-                
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe
                 ut quis quia quisquam itaque quos, sint assumenda soluta
                 nesciunt, est, suscipit officiis obcaecati consequuntur
@@ -281,19 +283,18 @@ function Body() {
       <div class="container-fluid mt-5 mb-5" id="section7">
         <div class="container">
           <h1>Field Force Management</h1>
-          
+
           <div class="row">
             <div class="col-lg-8">
               <div class="row mt-3">
-              <p class="mt-3">
-            A quick start implementation using Salesforce platform to manage the
-            field force in any retail or manufacturing scenario operating on a
-            channel framework. The time required for the set up would be 6-8
-            weeks as per the requirements. The key KPIs benchmarked as per the
-            industry best practices
-          </p>
+                <p class="mt-3">
+                  A quick start implementation using Salesforce platform to
+                  manage the field force in any retail or manufacturing scenario
+                  operating on a channel framework. The time required for the
+                  set up would be 6-8 weeks as per the requirements. The key
+                  KPIs benchmarked as per the industry best practices
+                </p>
                 <div class="col-lg-4">
-                  
                   <i class="bx bxs-category"></i>
                   <h2>Journey Planning</h2>
                   <ul>
@@ -339,15 +340,25 @@ function Body() {
           </div>
         </div>
       </div>
-    <div class="modal fade p-0 "  id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered p-0 modal-dialog modal-xl">
-        <div class="modal-content p-0">
-          <div class="modal-body p-0 mb-0 text-center shadow-lg rounded">
-          <img src={SAP} class="img-fluid shadow-lg rounded" alt=" Quadrafort"/>
+      <div
+        class="modal fade p-0 "
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-centered p-0 modal-dialog modal-xl">
+          <div class="modal-content p-0">
+            <div class="modal-body p-0 mb-0 text-center shadow-lg rounded">
+              <img
+                src={SAP}
+                class="img-fluid shadow-lg rounded"
+                alt=" Quadrafort"
+              />
+            </div>
           </div>
         </div>
       </div>
-    </div>
       <Footer />
     </>
   );
