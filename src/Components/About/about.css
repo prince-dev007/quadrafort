@@ -77,3 +77,18 @@
 #aboutSection3 ul {
   margin-top: 20px;
 }
+
+@media only screen and (max-width : 768px) {
+  #aboutSection2 h1::before 
+  {
+    width:220px;
+  }
+  #aboutSection3 h1
+  {
+    font-size: 1.5rem;
+  }
+  #aboutSection3 h1::before
+  {
+    width:120px;
+  }
+}

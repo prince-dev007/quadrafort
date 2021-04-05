@@ -91,3 +91,10 @@
     color: #fff;
   }
   
+  @media only screen and (max-width : 768px) {
+
+    #carrier2 .btn
+    {
+        margin:20px auto;
+    }
+  }

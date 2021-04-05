@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 import './Header.css';
 
 function Header() {
-  
+   
   return (
     <>
       
@@ -33,10 +33,15 @@ function Header() {
                 About Us <span class="sr-only">(current)</span>
               </Link>
             </li>
-            <li class="nav-item active">
-              <Link class="nav-link" to="/SalesforeProducts">
-                Salesfore Products <span class="sr-only">(current)</span>
+          
+            <li class="nav-item dropdown">
+              <Link class="nav-link dropdown-toggle"  id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Products
               </Link>
+              <div class="dropdown-menu" id="dropdown" aria-labelledby="navbarDropdown">
+                <Link to="/SalesforeProducts" class="dropdown-item text-dark" >Salesforce Products</Link>
+                <Link class="dropdown-item text-dark">SAP Products </Link>
+              </div>
             </li>
             <li class="nav-item active">
               <Link class="nav-link" to="/Career">

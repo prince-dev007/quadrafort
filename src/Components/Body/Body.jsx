@@ -14,6 +14,7 @@ import Fortune from "../Assests/img/fortune.png";
 import dentsu from "../Assests/img/dentsu.png";
 import { useState } from "react";
 import SAP from "../Assests/img/sapnew.png";
+import SAP_logo from "../Assests/img/SAP_logo.png";
 
 function Body() {
   const [progress, setProgress] = useState(false);
@@ -24,12 +25,6 @@ function Body() {
   }
   function endLoad() {
     setProgress(false);
-  }
-  setTimeout(function () {
-    OpenModal();
-  }, 2000);
-  function OpenModal() {
-    window.$("#exampleModal").modal("show");
   }
   return (
     <>
@@ -44,9 +39,16 @@ function Body() {
 
       <div class="container-fluid " id="section1">
         <Header />
+        <br />
         <div class="container animate__animated animate__fadeInUp ">
-          <br />
-          <img src={Salesfore} height="100px" alt="" />
+          <div class="row">
+            <div class="col-lg-6 " >
+              <img src={Salesfore} height="100px" alt="" />
+            </div>
+            <div class="col-lg-6">
+              <img src={SAP_logo} height="100px" alt="" />
+            </div>
+          </div>
           <h1>
             WE ARE HERE TO HELP YOU WITH <br /> QUALITY , FOCUS & EXCELLENCE
           </h1>
@@ -54,12 +56,12 @@ function Body() {
             Assist our customers in enhancing Productivity and bussiness
             efficiency.
           </p>
-          <button class="btn">Consult Us</button>
+          <button class="btn mt-5 shadow-lg">Consult Us</button>
         </div>
       </div>
       <div class="container-fluid mt-5" id="section2">
         <h1>About Quadrafort</h1>
-        <div class="row mt-3 p-lg-5">
+        <div class="row mt-3 p-lg-5 ">
           <div class="col-lg-6">
             <img src={Logo} class="img-fluid" alt="" />
           </div>
