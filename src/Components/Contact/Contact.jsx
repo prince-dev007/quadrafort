@@ -19,10 +19,10 @@ function Contact(){
                         <div class="col-lg-6 p-lg-5">
                                 <h2><span>Email</span></h2>
                                 <p>Feel free to mail us.!!</p>
-                                <h4>Info@quadrafort.com</h4>
+                                <h4><a href="mailto:info@quadrafort.com" rel="noreferrer"  target="_blank">Info@quadrafort.com</a></h4>
                                 <h2><span>Location</span></h2>
                                 <p>Regd Office - 3/15, East Patel Nagar, New Delhi - 110008,India</p>
-                                <h4>View on Google Maps</h4>
+                                <h4><a  href="https://goo.gl/maps/zmYPLurbJgmnkE1g7" rel="noreferrer"  target="_blank">View office Location on Google Map</a></h4>
                             </div>
                             <div class="col-lg-6 p-lg-2 mb-5">
                                 <h2>How can we help?</h2>
