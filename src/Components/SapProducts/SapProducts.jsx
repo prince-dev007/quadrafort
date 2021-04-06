@@ -15,7 +15,7 @@ function SapProducts() {
             <div class="container-fluid" id="sap1">
                 <Header/>
                 <div class="container text-center">
-                    <img src={SAP_logo} class="img-fluid"/>
+                    <img src={SAP_logo} class="img-fluid" alt="Quadrafort"/>
                     <h1>Business Engagement Model</h1>
                     <p>We operate a customer-centric business model focused on specific market segments with national representation through a direct channel. We employ dedicated key account management teams per leading industry sector thereby providing strategic clients, with specialist knowledge and expertise.  </p>
                     <button class="btn shadow-lg">Get in touch</button>
