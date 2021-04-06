@@ -92,28 +92,21 @@ function Body() {
           <h1>Our Consulting Service</h1>
           <br />
           <p>
-            The rise of mobile devices transform the way we consume information
-            entriely.
+          Our Technology Consulting Services focus on clients most critical issues and aspirations for an optimum futuristic Technology Transformation.
           </p>
           <div class="row">
             <div class="col-lg-6">
               <img src={Image2} alt="" />
               <h3>Process Consulting</h3>
               <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Asperiores omnis illum unde, atque fugit quasi? Nemo enim
-                placeat neque, labore veritatis eius sunt? Amet libero
-                consequatur, tempore laudantium id rem.
+              Our expert team with expertise across industries work hand in hand with the Clients to co create solutions in a pursuit to advance the clients growth. We also help in client’s technological evolution by offering best in class authentic discovery process and understanding of the landscape.
               </p>
             </div>
             <div class="col-lg-6">
               <img src={Image2} alt="" />
               <h3>Salesfore Product Implementation</h3>
               <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe
-                ut quis quia quisquam itaque quos, sint assumenda soluta
-                nesciunt, est, suscipit officiis obcaecati consequuntur
-                sapiente? Laborum iure aliquam nihil deserunt?
+              We help customers across industry verticals in redefining their sales, marketing and customer service experience using Salesforce products. We have certified and experienced team of Salesforce professionals who leverage extensive expertise in Salesforce configuration and customization to empower enterprises in their Technology Transformation journey.
               </p>
             </div>
           </div>
@@ -122,21 +115,27 @@ function Body() {
               <img src={Image2} alt="" />
               <h3>System Integration</h3>
               <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Asperiores omnis illum unde, atque fugit quasi? Nemo enim
-                placeat neque, labore veritatis eius sunt? Amet libero
-                consequatur, tempore laudantium id rem.
+              Our team of Integration architects help our customers to get seamless connectivity between Salesforce and various legacy and home-grown systems, in real time as well as in batch mode. Data plays a crucial role and our experts assist our customers in accurately mapping it in the system to provide clear visibility into the business, leading to informed decision making.
               </p>
             </div>
             <div class="col-lg-6">
               <img src={Image2} alt="" />
               <h3>Support & Adoption</h3>
               <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe
-                ut quis quia quisquam itaque quos, sint assumenda soluta
-                nesciunt, est, suscipit officiis obcaecati consequuntur
-                sapiente? Laborum iure aliquam nihil deserunt?
+              Adoption is the most important factor for the success of any implementation.
+
+We have a dedicated team focused on support & training, which helps in driving system adoption. We support customer via various methodologies :
               </p>
+              <ul>
+                <li>SLA Based support</li>
+                <li>Dedicated resource – T&M and Managed T&M model.</li>
+                </ul>
+                <p>We provide following sets of training to the customer’s team:</p>
+                <ul>
+                  <li>User training</li>
+                  <li>Admin training</li>
+                  <li> Module wise training</li>
+                </ul>
             </div>
           </div>
         </div>

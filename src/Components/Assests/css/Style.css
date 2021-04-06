@@ -186,6 +186,13 @@ html {
 }
 #section4 p {
   font-weight: bold;
+  font-size: 0.89rem;
+}
+#section4 ul li
+{
+  color: #000;
+  font-weight: bold;
+  font-size: 0.8rem;
 }
 #section4 h1 {
   font-weight: bold;
