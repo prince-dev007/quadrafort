@@ -11,7 +11,7 @@
     background-size: cover;
     background-attachment: fixed;
 
-    
+
 }
 #sap1 img
 {
@@ -70,4 +70,28 @@
 #sap3 span
 {
     border-bottom:3px solid #0288d1;
+}
+@media only screen and (max-width : 768px) {
+    #sap1 
+    {
+        padding-top:0px;
+    }
+    #sap1 h1
+    {
+        font-size: 2rem;
+    }
+    #sap2 h1
+    {
+        font-size: 2rem;
+        line-height: 50px;
+    }
+    #sap3
+    {
+        border: 0px solid #000;
+        text-align: center;
+    }
+    #sap3 img
+    {
+        margin:10px auto;
+    }
 }
