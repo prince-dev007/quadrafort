@@ -1,0 +1,71 @@
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#sap1
+{
+    height:100vh;
+    background:url('../Assests/img/sapNew.png');
+    background-size: cover;
+    background-attachment: fixed;
+}
+#sap1 img
+{
+    height:100px;
+}
+#sap1 .container
+{
+    padding-top:100px;
+}
+#sap1 h1
+{
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size:3rem;
+}
+#sap1 p
+{
+    color: #fff;
+    font-weight: bold;
+    font-size:1.2rem;
+    text-align: center;
+    margin-top:20px;
+}
+#sap1 .btn
+{
+    background:#fff;
+    border-radius:0px;
+    font-weight: bold;
+    padding:10px 20px;
+    font-size:1.3rem;
+}
+#sap2 h1
+{
+    text-align: center;
+}
+#sap2 span
+{
+    border-bottom:3px solid #0288d1;
+}
+#sap2 p
+{
+    text-align:justify;
+    font-weight: bold;
+    margin-top: 30px;
+}
+#sap3 h3
+{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+#sap3 h1
+{
+    text-align: center;
+}
+#sap3 span
+{
+    border-bottom:3px solid #0288d1;
+}

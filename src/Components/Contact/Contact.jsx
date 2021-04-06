@@ -19,6 +19,9 @@ function Contact() {
           Have any questions? We'd love to hear from you.
 Pls get in touch via  email , phone or fill in the form below and we will get back to you in 24 hours.
           </p>
+          <div class="containerNew">
+            <a href="mailto:info@quadrafort.com" target="_blank" rel="noreferrer" >info@quadrafort.com</a>
+          </div>
         </div>
       </div>
       <div class="container-fliud mt-5" id="contact2">
@@ -30,6 +33,7 @@ Pls get in touch via  email , phone or fill in the form below and we will get ba
               </h2>
               <p>Feel free to mail us.!!</p>
               <h4>
+             
                 <a
                   href="mailto:info@quadrafort.com"
                   rel="noreferrer"
@@ -42,6 +46,7 @@ Pls get in touch via  email , phone or fill in the form below and we will get ba
                 <span>Location</span>
               </h2>
               <p>
+                <strong>Phone: +91 11-41425335 </strong><br/>
                 Regd Office - 3/15, East Patel Nagar, New Delhi - 110008,India
               </p>
               <h4>
@@ -50,7 +55,7 @@ Pls get in touch via  email , phone or fill in the form below and we will get ba
                   rel="noreferrer"
                   target="_blank"
                 >
-                  View office Location on Google Map
+                  Our office Location on Google Map
                 </a>
               </h4>
             </div>

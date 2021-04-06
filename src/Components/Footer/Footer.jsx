@@ -61,11 +61,11 @@ function Footer() {
               - 201305, India
             </p>
             <p>
-              Phone: + 91 120 4561770
+              Phone: +91 11-41425335
               <br />
-              Fax: + 91 120 4561770
+              Fax: + 91 120-4561770
               <br />
-              Email: contact@quadrafort.com
+              Email: info@quadrafort.com
               <br />
               Website: www.quadrafort.com
             </p>
