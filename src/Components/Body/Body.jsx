@@ -344,7 +344,6 @@ function Body() {
           </div>
         </div>
       </div>
-     
       <Footer />
     </>
   );
