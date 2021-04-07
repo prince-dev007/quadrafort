@@ -1,5 +1,6 @@
 import Header from "../Header/Header";
 import "../Assests/css/Style.css";
+import {Link} from "react-router-dom"
 import LogoQ from "../Assests/img/logo.png";
 import Salesfore from "../Assests/img/Salesforce_Partner_Badge_Trnsp_Hrzntl_RGB.png";
 import Logo from "../Assests/img/hand.svg";
@@ -42,7 +43,6 @@ function Body() {
       opacity: 0,
       y:"-100%"
     }
-
   }
   return (
     <>
@@ -99,7 +99,7 @@ function Body() {
               transformation journey with least disruption with emphasis on
               proper adoption, to aid in achieving complex business goals.
             </p>
-            <motion.button whileHover={{ scale: 1.1,}} whileTap={{ scale: 0.8 }}  class="btn shadow-lg">Read More</motion.button>
+            <Link to="/About" whileHover={{ scale: 1.1,}} whileTap={{ scale: 0.8 }}  class="btn shadow-lg">Read More</Link>
           </div>
         </div>
       </motion.div>
