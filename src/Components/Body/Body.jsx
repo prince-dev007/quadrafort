@@ -15,10 +15,15 @@ import dentsu from "../Assests/img/dentsu.png";
 import { useState } from "react";
 import SAP_logo from "../Assests/img/SAP_logo.png";
 import $ from 'jquery'
+import {motion} from "framer-motion";
 function Body() {
+
   $(document).ready(function(){
     $(this).scrollTop(0);
 });
+
+
+
   const [progress, setProgress] = useState(false);
   window.addEventListener("load", checkLoad);
   function checkLoad() {
@@ -27,6 +32,17 @@ function Body() {
   }
   function endLoad() {
     setProgress(false);
+  }
+  const pageTransition = {
+    in:{
+      opacity:1, 
+      y:0
+    },
+    out:{
+      opacity: 0,
+      y:"-100%"
+    }
+
   }
   return (
     <>
@@ -39,29 +55,29 @@ function Body() {
         </div>
       ) : null}
 
-      <div class="container-fluid " id="section1">
+      <div  className="container-fluid"  id="section1">
         <Header />
         <br />
-        <div class="container animate__animated animate__fadeInUp ">
+        <motion.div initial="out" animate="in" exit="out" variants={pageTransition} class="container ">
           <div class="row">
-            <div class="col-lg-6 " >
+            <div  class="col-lg-6">
               <img src={Salesfore} height="100px" alt="" />
             </div>
             <div class="col-lg-6">
               <img src={SAP_logo} height="100px" alt="" />
             </div>
           </div>
-          <h1>
+          <motion.h1 >
             WE ARE HERE TO HELP YOU WITH <br /> QUALITY , FOCUS & EXCELLENCE
-          </h1>
+          </motion.h1>
           <p>
             Assist our customers in enhancing Productivity and bussiness
             efficiency.
           </p>
-          <button class="btn mt-5 shadow-lg">Consult Us</button>
-        </div>
+          {/* <motion.button whileHover={{ scale: 1.2,}} whileTap={{ scale: 0.8 }} class="btn mt-5 shadow-lg">Consult Us</motion.button> */}
+        </motion.div>
       </div>
-      <div class="container-fluid mt-5" id="section2">
+      <motion.div class="container-fluid mt-5" id="section2">
         <h1>About Quadrafort</h1>
         <div class="row mt-3 p-lg-5 ">
           <div class="col-lg-6">
@@ -83,10 +99,10 @@ function Body() {
               transformation journey with least disruption with emphasis on
               proper adoption, to aid in achieving complex business goals.
             </p>
-            <button class="btn shadow-lg">Read More</button>
+            <motion.button whileHover={{ scale: 1.1,}} whileTap={{ scale: 0.8 }}  class="btn shadow-lg">Read More</motion.button>
           </div>
         </div>
-      </div>
+      </motion.div>
       <div class="container-fluid mt-5" id="section4">
         <div class="container p-lg-5">
           <h1>Our Consulting Service</h1>

@@ -13,17 +13,29 @@ import optimization from '../Assests/img/optimization.png'
 import support from '../Assests/img/support.png'
 import "./sales.css";
 import $ from 'jquery'
+import {motion} from 'framer-motion'
 
 function SalesforeProducts() {
   $(document).ready(function(){
     $(this).scrollTop(0);
 });
+const pageTransition = {
+  in:{
+    opacity:1, 
+    y:0
+  },
+  out:{
+    opacity: 0,
+    y:"-100%"
+  }
+
+}
   return (
     <>
 
       <div class="container-fluid" id="product1">
       <Header />
-        <div class="container text-center">
+        <motion.div initial="out" animate="in" exit="out" variants={pageTransition} class="container text-center">
           <h1 class="mt-5">
             Salesforce <span>Products</span> Offerings
           </h1>
@@ -33,7 +45,7 @@ function SalesforeProducts() {
             adoption, to aid in achieving complex business goals.
           </p>
           <button class="btn shadow mt-3">Get in touch</button>
-        </div>
+        </motion.div>
       </div>
       <div class="container-fluid mt-5" id="product2">
         <div class="container">

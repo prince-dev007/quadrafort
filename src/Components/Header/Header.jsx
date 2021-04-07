@@ -7,7 +7,7 @@ function Header() {
   return (
     <>
       
-      <nav class="navbar navbar-expand-lg navbar-light p-lg-4 animate__animated animate__fadeInDown"   >
+      <nav class="navbar navbar-expand-lg navbar-light p-lg-4 "   >
         <a class="navbar-brand" href="#Quadrafort">
             <img src={Logo} height="100px" alt="Quadrafort" />
         </a>

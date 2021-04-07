@@ -1,16 +1,28 @@
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
+import {motion} from 'framer-motion'
 import "./about.css";
 import $ from 'jquery'
 function About() {
   $(document).ready(function(){
     $(this).scrollTop(0);
 });
+const pageTransition = {
+  in:{
+    opacity:1, 
+    y:0
+  },
+  out:{
+    opacity: 0,
+    y:"-100%"
+  }
+
+}
   return (
     <>
-      <div class="container-fluid" id="aboutSection1">
+      <div  class="container-fluid" id="aboutSection1">
         <Header />
-        <div class="container">
+        <motion.div initial="out" animate="in" exit="out" variants={pageTransition} class="container">
           <div class="row">
             <div class="col-lg-6 p-lg-3">
               <h1>
@@ -35,7 +47,7 @@ function About() {
               </p>
             </div>
           </div>
-        </div>
+        </motion.div>
       </div>
       <div class="container-fluid mt-5 mb-5" id="aboutSection2">
         <h1>What we do?</h1>

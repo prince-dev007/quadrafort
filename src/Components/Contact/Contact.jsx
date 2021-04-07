@@ -2,15 +2,27 @@ import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 import "./contact.css";
 import $ from 'jquery'
+import {motion} from 'framer-motion'
 function Contact() {
     $(document).ready(function(){
         $(this).scrollTop(0);
     });
+    const pageTransition = {
+      in:{
+        opacity:1, 
+        y:0
+      },
+      out:{
+        opacity: 0,
+        y:"-100%"
+      }
+    
+    }
   return (
     <>
       <div class="container-fluid" id="contact1">
         <Header />
-        <div class="container">
+        <motion.div initial="out" animate="in" exit="out" variants={pageTransition} class="container">
           <h1>
             <span>Contact</span> Us
           </h1>
@@ -22,7 +34,7 @@ Pls get in touch via  email , phone or fill in the form below and we will get ba
           <div class="containerNew">
             <a href="mailto:info@quadrafort.com" target="_blank" rel="noreferrer" >info@quadrafort.com</a>
           </div>
-        </div>
+        </motion.div>
       </div>
       <div class="container-fliud mt-5" id="contact2">
         <div class="container">

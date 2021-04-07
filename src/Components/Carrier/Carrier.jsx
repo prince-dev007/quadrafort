@@ -2,23 +2,35 @@ import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 import "./carrier.css";
 import $ from 'jquery'
+import {motion} from 'framer-motion'
 function Carrier() {
   $(document).ready(function(){
     $(this).scrollTop(0);
 });
+const pageTransition = {
+  in:{
+    opacity:1, 
+    y:0
+  },
+  out:{
+    opacity: 0,
+    y:"-100%"
+  }
+
+}
   return (
     <>
 
       <div class="container-fluid" id="carrier1">
       <Header />
-        <div class="container">
+        <motion.div initial="out" animate="in" exit="out" variants={pageTransition}  class="container">
           <h1 class="mt-5"> Career</h1>
           <p>
           If you are an aggressive, go getter with a mind bend to excel in your domain, Quadrafort is the place for you.
 
 Join the team to make a mark for yourself and enjoy one of the best rewarding environments for Professional Excellence.
           </p>
-        </div>
+        </motion.div>
       </div>
       <div class="container-fluid mt-4 mb-5" id="carrier2">
         <div class="container">

@@ -6,12 +6,14 @@ import SalesforeProducts from  './Components/SalesforceProducts/SalesforceProduc
 import Carrier from './Components/Carrier/Carrier';
 import Contact from './Components/Contact/Contact';
 import SapProducts from './Components/SapProducts/SapProducts';
-import {Switch,Route} from 'react-router-dom';
+import {Switch,Route,useLocation} from 'react-router-dom';
+import {AnimatePresence} from 'framer-motion';
 
 function App() {
+  const location = useLocation();
   return (
-
-      <Switch>
+      <AnimatePresence exitBeforeEnter>
+      <Switch location={location} key={location.pathname}>
         <Route exact path="/" component={Body} />
         <Route exact path="/About" component={About} />
         <Route exact path="/SalesforeProducts" component={SalesforeProducts}/>
@@ -19,6 +21,7 @@ function App() {
         <Route exact path="/Contact" component={Contact}/>
         <Route exact path="/SapProducts" component={SapProducts}/>
       </Switch>
+      </AnimatePresence>
   );
 }
 
