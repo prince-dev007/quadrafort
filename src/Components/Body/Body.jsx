@@ -1,6 +1,6 @@
 import Header from "../Header/Header";
 import "../Assests/css/Style.css";
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom";
 import LogoQ from "../Assests/img/logo.png";
 import Salesfore from "../Assests/img/Salesforce_Partner_Badge_Trnsp_Hrzntl_RGB.png";
 import Logo from "../Assests/img/hand.svg";
@@ -15,15 +15,12 @@ import Fortune from "../Assests/img/fortune.png";
 import dentsu from "../Assests/img/dentsu.png";
 import { useState } from "react";
 import SAP_logo from "../Assests/img/SAP_logo.png";
-import $ from 'jquery'
-import {motion} from "framer-motion";
+import $ from "jquery";
+import { motion } from "framer-motion";
 function Body() {
-
-  $(document).ready(function(){
+  $(document).ready(function () {
     $(this).scrollTop(0);
-});
-
-
+  });
 
   const [progress, setProgress] = useState(false);
   window.addEventListener("load", checkLoad);
@@ -35,15 +32,15 @@ function Body() {
     setProgress(false);
   }
   const pageTransition = {
-    in:{
-      opacity:1, 
-      y:0
+    in: {
+      opacity: 1,
+      y: 0,
     },
-    out:{
+    out: {
       opacity: 0,
-      y:"-100%"
-    }
-  }
+      y: "-100%",
+    },
+  };
   return (
     <>
       {progress ? (
@@ -55,20 +52,26 @@ function Body() {
         </div>
       ) : null}
 
-      <div  className="container-fluid"  id="section1">
+      <div className="container-fluid" id="section1">
         <Header />
         <br />
-        <motion.div initial="out" animate="in" exit="out" variants={pageTransition} class="container ">
+        <motion.div
+          initial="out"
+          animate="in"
+          exit="out"
+          variants={pageTransition}
+          class="container "
+        >
           <div class="row">
-            <div  class="col-lg-6">
+            <div class="col-lg-6">
               <img src={Salesfore} height="100px" alt="" />
             </div>
             <div class="col-lg-6">
               <img src={SAP_logo} height="100px" alt="" />
             </div>
           </div>
-          <motion.h1 >
-            WE ARE HERE TO HELP YOU WITH <br /> QUALITY , FOCUS & EXCELLENCE
+          <motion.h1>
+            WE ARE HERE TO HELP YOU WITH <br /> QUALITY,FOCUS & EXCELLENCE
           </motion.h1>
           <p>
             Assist our customers in enhancing Productivity and bussiness
@@ -99,7 +102,14 @@ function Body() {
               transformation journey with least disruption with emphasis on
               proper adoption, to aid in achieving complex business goals.
             </p>
-            <Link to="/About" whileHover={{ scale: 1.1,}} whileTap={{ scale: 0.8 }}  class="btn shadow-lg">Read More</Link>
+            <Link
+              to="/About"
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.8 }}
+              class="btn shadow-lg"
+            >
+              Read More
+            </Link>
           </div>
         </div>
       </motion.div>
@@ -108,21 +118,32 @@ function Body() {
           <h1>Our Consulting Service</h1>
           <br />
           <p>
-          Our Technology Consulting Services focus on clients most critical issues and aspirations for an optimum futuristic Technology Transformation.
+            Our Technology Consulting Services focus on clients most critical
+            issues and aspirations for an optimum futuristic Technology
+            Transformation.
           </p>
           <div class="row">
             <div class="col-lg-6">
               <img src={Image2} alt="" />
               <h3>Process Consulting</h3>
               <p>
-              Our expert team with expertise across industries work hand in hand with the Clients to co create solutions in a pursuit to advance the clients growth. We also help in client’s technological evolution by offering best in class authentic discovery process and understanding of the landscape.
+                Our expert team with expertise across industries work hand in
+                hand with the Clients to co create solutions in a pursuit to
+                advance the clients growth. We also help in client’s
+                technological evolution by offering best in class authentic
+                discovery process and understanding of the landscape.
               </p>
             </div>
             <div class="col-lg-6">
               <img src={Image2} alt="" />
               <h3>Salesfore Product Implementation</h3>
               <p>
-              We help customers across industry verticals in redefining their sales, marketing and customer service experience using Salesforce products. We have certified and experienced team of Salesforce professionals who leverage extensive expertise in Salesforce configuration and customization to empower enterprises in their Technology Transformation journey.
+                We help customers across industry verticals in redefining their
+                sales, marketing and customer service experience using
+                Salesforce products. We have certified and experienced team of
+                Salesforce professionals who leverage extensive expertise in
+                Salesforce configuration and customization to empower
+                enterprises in their Technology Transformation journey.
               </p>
             </div>
           </div>
@@ -131,27 +152,35 @@ function Body() {
               <img src={Image2} alt="" />
               <h3>System Integration</h3>
               <p>
-              Our team of Integration architects help our customers to get seamless connectivity between Salesforce and various legacy and home-grown systems, in real time as well as in batch mode. Data plays a crucial role and our experts assist our customers in accurately mapping it in the system to provide clear visibility into the business, leading to informed decision making.
+                Our team of Integration architects help our customers to get
+                seamless connectivity between Salesforce and various legacy and
+                home-grown systems, in real time as well as in batch mode. Data
+                plays a crucial role and our experts assist our customers in
+                accurately mapping it in the system to provide clear visibility
+                into the business, leading to informed decision making.
               </p>
             </div>
             <div class="col-lg-6">
               <img src={Image2} alt="" />
               <h3>Support & Adoption</h3>
               <p>
-              Adoption is the most important factor for the success of any implementation.
-
-We have a dedicated team focused on support & training, which helps in driving system adoption. We support customer via various methodologies :
+                Adoption is the most important factor for the success of any
+                implementation. We have a dedicated team focused on support &
+                training, which helps in driving system adoption. We support
+                customer via various methodologies :
               </p>
               <ul>
                 <li>SLA Based support</li>
                 <li>Dedicated resource – T&M and Managed T&M model.</li>
-                </ul>
-                <p>We provide following sets of training to the customer’s team:</p>
-                <ul>
-                  <li>User training</li>
-                  <li>Admin training</li>
-                  <li> Module wise training</li>
-                </ul>
+              </ul>
+              <p>
+                We provide following sets of training to the customer’s team:
+              </p>
+              <ul>
+                <li>User training</li>
+                <li>Admin training</li>
+                <li> Module wise training</li>
+              </ul>
             </div>
           </div>
         </div>

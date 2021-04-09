@@ -1,16 +1,14 @@
-import Logo from '../Assests/img/logo.png';
-import {Link} from 'react-router-dom';
-import './Header.css';
+import Logo from "../Assests/img/logo.png";
+import { Link } from "react-router-dom";
+import "./Header.css";
 
 function Header() {
-   
   return (
     <>
-      
-      <nav class="navbar navbar-expand-lg navbar-light p-lg-4 "   >
-        <a class="navbar-brand" href="#Quadrafort">
-            <img src={Logo} height="100px" alt="Quadrafort" />
-        </a>
+      <nav class="navbar navbar-expand-lg navbar-light p-lg-4 ">
+        <Link to="/" class="navbar-brand">
+          <img src={Logo} height="100px" alt="Quadrafort" />
+        </Link>
         <button
           class="navbar-toggler"
           type="button"
@@ -18,7 +16,8 @@ function Header() {
           data-target="#navbarNavDropdown"
           aria-controls="navbarNavDropdown"
           aria-expanded="false"
-          aria-label="Toggle navigation">
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -33,26 +32,41 @@ function Header() {
                 About Us <span class="sr-only">(current)</span>
               </Link>
             </li>
-          
+
             <li class="nav-item dropdown">
-              <Link class="nav-link dropdown-toggle"  id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Products
+              <Link
+                class="nav-link dropdown-toggle"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Products
               </Link>
-              <div class="dropdown-menu" id="dropdown" aria-labelledby="navbarDropdown">
-                <Link to="/SalesforeProducts" class="dropdown-item text-dark" >Salesforce Products</Link>
-                <Link to="/SapProducts" class="dropdown-item text-dark">SAP Products </Link>
+              <div
+                class="dropdown-menu"
+                id="dropdown"
+                aria-labelledby="navbarDropdown"
+              >
+                <Link to="/SalesforeProducts" class="dropdown-item text-dark">
+                  Salesforce Products
+                </Link>
+                <Link to="/SapProducts" class="dropdown-item text-dark">
+                  SAP Products{" "}
+                </Link>
               </div>
             </li>
             <li class="nav-item active">
               <Link class="nav-link" to="/Career">
-              Career <span class="sr-only">(current)</span>
+                Career <span class="sr-only">(current)</span>
               </Link>
             </li>
             <li class="nav-item active">
               <Link class="nav-link" to="/Contact">
-               Contact Us <span class="sr-only">(current)</span>
+                Contact Us <span class="sr-only">(current)</span>
               </Link>
-            </li>        
+            </li>
           </ul>
         </div>
       </nav>

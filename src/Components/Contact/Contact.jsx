@@ -29,11 +29,9 @@ function Contact() {
           <p>
           <b>We appreciate your interest in Quadrafort Technologies Pvt. Ltd.</b><br/>
           Have any questions? We'd love to hear from you.
-Pls get in touch via  email , phone or fill in the form below and we will get back to you in 24 hours.
+Pls get in touch via  email,phone or fill in the form below and we will get back to you in 24 hours.
           </p>
-          <div class="containerNew">
-            <a href="mailto:info@quadrafort.com" target="_blank" rel="noreferrer" >info@quadrafort.com</a>
-          </div>
+         
         </motion.div>
       </div>
       <div class="container-fliud mt-5" id="contact2">
