@@ -19,6 +19,10 @@ function SalesforeProducts() {
   $(document).ready(function(){
     $(this).scrollTop(0);
 });
+function linkPage()
+{
+  window.open("https://www.linkedin.com/company/quadrafort-technologies-pvt-ltd", "_blank");
+}
 const pageTransition = {
   in:{
     opacity:1, 
@@ -47,6 +51,11 @@ const pageTransition = {
           <button class="btn shadow mt-3">Get in touch</button>
         </motion.div>
       </div>
+      <div class="action shadow-lg" onClick={linkPage} >
+        <span>
+
+        </span>
+            </div>
       <div class="container-fluid mt-5" id="product2">
         <div class="container">
           <div class="row">

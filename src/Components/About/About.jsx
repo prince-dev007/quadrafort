@@ -7,6 +7,10 @@ function About() {
   $(document).ready(function(){
     $(this).scrollTop(0);
 });
+function linkPage()
+{
+  window.open("https://www.linkedin.com/company/quadrafort-technologies-pvt-ltd", "_blank");
+}
 const pageTransition = {
   in:{
     opacity:1, 
@@ -49,6 +53,11 @@ const pageTransition = {
           </div>
         </motion.div>
       </div>
+      <div class="action shadow-lg" onClick={linkPage} >
+        <span>
+
+        </span>
+            </div>
       <div class="container-fluid mt-5 mb-5" id="aboutSection2">
         <h1>What we do?</h1>
         <div class="row text-center mt-5">

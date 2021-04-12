@@ -20,7 +20,16 @@ import { motion } from "framer-motion";
 function Body() {
   $(document).ready(function () {
     $(this).scrollTop(0);
+    
   });
+  function linkPage()
+  {
+    window.open("https://www.linkedin.com/company/quadrafort-technologies-pvt-ltd", "_blank");
+  }
+  // function actionToggle() {
+  //     var action = document.querySelector('.action');
+  //     action.classList.toggle('active')
+  // }
 
   const [progress, setProgress] = useState(false);
   window.addEventListener("load", checkLoad);
@@ -71,16 +80,24 @@ function Body() {
             </div>
           </div>
           <motion.h1>
-            WE ARE HERE TO HELP YOU WITH <br /> QUALITY,FOCUS & EXCELLENCE
+            WE ARE HERE TO HELP YOU WITH <br /> QUALITY, FOCUS & EXCELLENCE
           </motion.h1>
+          
           <p>
             Assist our customers in enhancing Productivity and bussiness
             efficiency.
           </p>
+         
           {/* <motion.button whileHover={{ scale: 1.2,}} whileTap={{ scale: 0.8 }} class="btn mt-5 shadow-lg">Consult Us</motion.button> */}
         </motion.div>
       </div>
+      <div class="action shadow-lg" onClick={linkPage} >
+        <span>
+
+        </span>
+            </div>
       <motion.div class="container-fluid mt-5" id="section2">
+        
         <h1>About Quadrafort</h1>
         <div class="row mt-3 p-lg-5 ">
           <div class="col-lg-6">

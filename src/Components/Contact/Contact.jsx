@@ -7,6 +7,10 @@ function Contact() {
     $(document).ready(function(){
         $(this).scrollTop(0);
     });
+    function linkPage()
+{
+  window.open("https://www.linkedin.com/company/quadrafort-technologies-pvt-ltd", "_blank");
+}
     const pageTransition = {
       in:{
         opacity:1, 
@@ -34,6 +38,11 @@ Pls get in touch via  email,phone or fill in the form below and we will get back
          
         </motion.div>
       </div>
+      <div class="action shadow-lg" onClick={linkPage} >
+        <span>
+
+        </span>
+            </div>
       <div class="container-fliud mt-5" id="contact2">
         <div class="container">
           <div class="row">
